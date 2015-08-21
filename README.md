@@ -1,4 +1,5 @@
 =======
+ALL OF THE WORK SHOWN HERE WAS DONE FIRST BY GREG RICKABY AND TO HIM BE THE HONOR AND THE CREDIT. I SIMPLY ADDED THE THEME FILES FROM STUDIOPRESS'S SWANK AND SEGMENTED OUT THE CSS INTO THE SASS PARTIALS.
 # Genesis Sample Theme (with Sass & Grunt)
 
 Github project link: https://github.com/gregrickaby/genesis-sample/tree/sass
