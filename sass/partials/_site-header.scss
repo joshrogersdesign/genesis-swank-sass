@@ -1,0 +1,104 @@
+.site-header {
+	background-color: #fff;
+}
+
+.site-header .wrap {
+	padding: 15px 0;
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	display: inline-block;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 18px 0 25px 0;
+	text-align: center;
+	width: 320px;
+}
+
+.header-image .site-description {
+	line-height: 0;
+}
+
+.header-image .title-area {
+	padding: 0;
+}
+
+.site-title {
+	font-size: 58px;
+	line-height: 0.8;
+	margin: 0 0 12px 0;
+	text-transform: none;
+}
+
+.site-title a {
+	color: #555;
+}
+
+.site-title a:hover {
+	color: #bbb;
+}
+
+.site-description {
+	color: #bbb;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 0.5;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+
+/* Full width header, no widgets */
+
+.header-full-width .title-area,
+.header-full-width .site-title {
+	width: 100%;
+}
+
+.header-image .site-description,
+.header-image .site-title a {
+	display: block;
+	text-indent: -9999px;
+}
+
+/* Logo, hide text */
+
+.header-image .site-title > a {
+	background-size: contain !important;
+	display: block;
+	height: 100px;
+	margin: 10px auto;
+	text-indent: -9999px;
+	max-width: 320px;
+}
+
+.header-image .site-title a {
+	width: 100%;
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.widget-area {
+	word-wrap: break-word;
+}
+
+.site-header .widget-area {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	width: 700px;
+}
+
+.header-image .site-header .widget-area {
+	padding: 40px 0;
+}
+
+.site-header .search-form {
+	float: right;
+	margin-top: 24px;
+}

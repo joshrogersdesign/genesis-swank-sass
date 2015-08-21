@@ -1,0 +1,43 @@
+
+.content div.sharedaddy div.sd-block {
+	border-bottom: 1px dashed #ddd;
+	border-top: 1px dashed #ddd;
+	padding: 0;
+}
+
+.content div.sharedaddy .sd-content {
+	float: left;
+	padding: 15px 0 10px 0;
+}
+
+.content div.sharedaddy a.sd-button {
+	border: none !important;
+	box-shadow: none;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+.content .sd-social-icon-text a.sd-button > span, a.sd-button > span {
+	opacity: 1;
+	padding: 6px 18px;
+}
+
+.content a.sd-button > span {
+	background-image: none !important;
+	background: #999;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.content a.sd-button:hover > span {
+	background: #bbb;
+}
+
+.sd-content .sd-button span.share-count {
+	color: #bbb !important;
+	font-size: 100% !important;
+}

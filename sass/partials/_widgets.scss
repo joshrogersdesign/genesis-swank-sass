@@ -1,0 +1,89 @@
+/* Top Bar Widget Areas
+--------------------------------------------- */
+
+.top-bar {
+	background-color:transparent;
+	border-bottom: 1px solid #ddd;
+	color: #999;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 1;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+
+.top-bar a {
+	color: #bbb;
+	font-family: 'Old Standard TT', serif;
+	font-size: 16px;
+	font-style: italic;
+	letter-spacing: 0;
+	text-transform: lowercase;
+}
+
+.top-bar a:hover {
+	text-decoration: underline;
+}
+
+.top-bar-left,
+.top-bar-right {
+	width: 50%;
+}
+
+.top-bar-left p,
+.top-bar-right p {
+	margin-bottom: 0;
+}
+
+.top-bar-left {
+	float: left;
+}
+
+.top-bar-left .widgetwrap {
+	float: left;
+}
+
+.top-bar-right {
+	float: right;
+	text-align: right;
+}
+
+.top-bar .widgettitle {
+	color: #e8d999;
+	font-family: 'Old Standard TT', serif;
+	line-height: 1;
+	margin: 0 0 7px 0;
+	text-transform: lowercase;
+}
+
+.top-bar-left .widgettitle {
+	text-align: left;
+}
+
+.top-bar-right .widgettitle {
+	text-align: right;
+}
+
+.top-bar .simple-social-icons {
+	margin-bottom: -10px;
+}
+
+/* Featured Content
+--------------------------------------------- */
+
+.featured-content .entry {
+	border-bottom: 2px solid #f5f5f5;
+	margin-bottom: 20px;
+	padding: 0 0 24px;
+}
+
+.featured-content .entry-title {
+	border: none;
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+.featured-content .entry-title a {
+	border: none;
+}

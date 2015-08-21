@@ -1,0 +1,32 @@
+.sidebar {
+	color: #999;
+}
+
+.sidebar a {
+	color: #f69c9b;
+}
+
+.sidebar a:hover {
+	color: #999;
+}
+
+.sidebar p:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar li {
+	list-style-type: none;
+	margin-bottom: 6px;
+	word-wrap: break-word;
+}
+
+.sidebar ul > li:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar .widget {
+	background-color: #f5f5f5;
+	border: 7px solid #eee;
+	margin-bottom: 40px;
+	padding: 40px;
+}

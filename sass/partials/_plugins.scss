@@ -1,0 +1,217 @@
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+.enews-widget {
+	color: #999;
+	padding-top: 0;
+}
+
+.enews-widget .widget-title {
+	color: #f69c9b;
+}
+
+.enews-widget input {
+	padding: 10px;
+	width: 60%;
+}
+
+.enews-widget input:focus {
+	border: 1px solid #ddd;
+}
+
+.enews-widget input[type="submit"] {
+	background-color: #f69c9b;
+	color: #fff;
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+	padding: 3px 0 7px 0;
+	text-transform: lowercase;
+	width: 20%;
+}
+
+.enews-widget input:hover[type="submit"] {
+	background-color: #999;
+	color: #fff;
+}
+
+.footer-widgets .enews-widget input {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.footer-widgets .enews-widget {
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+	width: 65%;
+}
+
+.footer-widgets .enews .widgettitle {
+	text-align: right;
+}
+
+.footer-widgets .widget_nav_menu {
+	display: inline-block;
+	float: left;
+}
+
+/* Genesis Latest Tweets
+--------------------------------------------- */
+
+.latest-tweets ul li {
+	margin-bottom: 16px;
+}
+
+/* Gravity Forms
+--------------------------------------------- */
+
+div.gform_wrapper input[type="file"],
+div.gform_wrapper input[type="url"],
+div.gform_wrapper input[type="email"],
+div.gform_wrapper input[type="text"],
+div.gform_wrapper textarea,
+div.gform_wrapper .ginput_complex label {
+	font-size: 16px;
+	padding: 16px;
+}
+
+div.gform_wrapper .ginput_complex label {
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	padding: 0;
+}
+
+.gform_wrapper {
+	max-width: 100% !important;
+}
+
+div.gform_wrapper li,
+div.gform_wrapper form li {
+	margin: 16px 0 0;
+}
+
+div.gform_wrapper .gform_footer input[type="submit"] {
+	border-radius: 0 !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 14px;
+}
+
+div.gform_wrapper ul li {
+	list-style-type: none !important;
+}
+
+.gform_wrapper input.button {
+	color: #fff !important;
+}
+
+.gfield_label {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 400 !important;
+	letter-spacing: 2;
+	text-transform: uppercase !important;
+}
+
+.gform_body {
+	background-color: #f5f5f5;
+	border: 7px solid #eee;
+	padding: 20px;
+}
+
+.gform_wrapper {
+	max-width: 100%;
+}
+
+/* Jetpack
+--------------------------------------------- */
+
+img#wpstats {
+	display: none;
+}
+
+/* Portfolio Page
+--------------------------------------------- */
+
+.portfolio .entry-title {
+	text-align: center;
+}
+
+.post-type-archive-portfolio .navigation {
+	clear: both;
+	text-transform: uppercase;
+}
+
+.portfolio-featured-image a img {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.portfolio.type-portfolio.entry {
+	float: left;
+	padding: 0 29px;
+}
+
+.single-portfolio .type-portfolio.entry {
+	float: none;
+	padding: 0;
+}
+
+.portfolio-featured-image a img:hover {
+	background-color: #ddd;
+}
+
+.single-portfolio #content {
+	text-align: center;
+}
+
+.archive-portfolio #content {
+	text-align: center;
+}
+
+.single-portfolio img {
+	background: #fff;
+}
+
+.portfolioblurb {
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+}
+
+.portfolioblurb .textwidget {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 7px;
+	margin-bottom: 40px;
+}
+
+.portfolioblurb h4 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 22px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-transform: none;
+}
+
+.single-portfolio h1 {
+	padding-top: 10px;
+}
+
+.post-type-archive-portfolio .portfolio .entry-content {
+	display: none;
+}
+
+
+/* Simple Social Icons Custom Styling for swank
+--------------------------------------------- */
+
+.simple-social-icons ul li a, .simple-social-icons ul li a:hover {
+	padding: 0 !important;
+}

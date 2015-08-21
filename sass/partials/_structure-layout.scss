@@ -1,0 +1,333 @@
+
+/* Site Containers
+--------------------------------------------- */
+
+.site-container  {
+	background: #fff;
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.site-inner,
+.wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.site-inner {
+	clear: both;
+	padding-top: 40px;
+}
+
+/*
+Home Page Widgets
+---------------------------------------------------------------------------------------------------- */
+
+/*
+Home Slider Widget
+--------------------------------------------- */
+.home-slider {
+	border-bottom: 1px solid #ddd;
+	float: none;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+
+/* Direction Nav */
+.flex-direction-nav li a {
+	width: 52px !important; 
+	height: 52px !important; 
+	margin: -20px 0 0; 
+	display: block; 
+	background: url(images/bg_direction_nav.png) no-repeat 0 0 !important; 
+	position: absolute; 
+	top: 50%; 
+	cursor: pointer; 
+	text-indent: -9999px; 
+	z-index: 100;
+}
+
+.flex-direction-nav li .next {
+	background-position: -52px 0 !important; 
+	right: -60px !important; 
+}
+
+.flex-direction-nav li .next:hover {
+	background-position: -52px -50px !important; 
+}
+
+.flex-direction-nav li .prev {
+	left: -60px !important; 
+}
+
+.flex-direction-nav li .prev:hover {
+	background-position: 0 -50px !important; 
+}
+
+/*
+Featured Circles
+--------------------------------------------- */
+
+.featured-circles .featured-content .entry {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.featured-circles {
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.featured-circles img {
+	border: 1px solid #ddd;
+	padding: 7px;
+	border-radius: 50%;
+	-webkit-border-radius: 9999px;
+	-moz-border-radius: 9999px; 
+	display: inline-block;
+}
+
+.featured-circles img:hover {
+	background-color: #ddd;
+}
+
+.featured-circles .widget {
+	display: inline-block;
+	padding: 20px 25px;
+	text-align: center;
+	width: 20%;
+}
+
+.featured-circles .widget-title {
+	margin-bottom: 7px;
+	margin-top: 10px;
+}
+
+.featured-circles .featured-content .entry {
+	border-bottom: 0;
+}
+
+/*
+Home Featured Widget Area
+--------------------------------------------- */
+
+.home-featured-area .widget {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	padding: 0 2.8%;
+	width: 33.33333333333%;
+}
+
+.home-featured-area .featured-content .entry-title {
+	margin-bottom: 40px;
+	margin-top: -70px;
+	margin: -70px auto 40px auto;
+	max-width: 300px;
+}
+
+.home-featured-area h2.entry-title {
+	background-color: #fff;
+	opacity: 0.5;
+}
+
+.home-featured-area h2.entry-title a {
+	color: #545454;
+	width: 100%;
+}
+
+.home-featured-area .post .entry-content p:first-child:first-letter { 
+	color: #999; 
+	float: none;
+	font-size: 16px; 
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.home-featured-area .featured-content .entry {
+	border: none;
+}
+
+.home article .img {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 7px;
+}
+
+.home-featured-area {
+	margin: 0 auto !important;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.featured-slider {
+	margin: 0 auto !important;
+	text-align: center;
+}
+
+#genesis-responsive-slider {
+	border: 0 !important;
+	margin: 0 auto important;
+	padding: 0 !important;
+}
+
+#genesis-responsive-slider img {
+	border: none !important;
+}
+
+.slide-image img {
+	padding: 0 !important;
+}
+
+.flex-direction-nav li .prev {
+	left: 20px !important;
+}
+
+.flex-direction-nav li .next {
+	right: 20px !important;
+}
+
+.flex-direction-nav li a {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
+/* Column Widths and Positions
+--------------------------------------------- */
+
+/* Wrapping div for .content and .sidebar-primary */
+
+.content-sidebar-sidebar .content-sidebar-wrap,
+.sidebar-content-sidebar .content-sidebar-wrap,
+.sidebar-sidebar-content .content-sidebar-wrap {
+	width: 920px;
+}
+
+.content-sidebar-sidebar .content-sidebar-wrap {
+	float: left;
+}
+
+.sidebar-content-sidebar .content-sidebar-wrap,
+.sidebar-sidebar-content .content-sidebar-wrap {
+	float: right;
+}
+
+/* Content */
+
+.content {
+	float: right;
+	width: 740px;
+}
+
+.content-sidebar .content,
+.content-sidebar-sidebar .content,
+.sidebar-content-sidebar .content {
+	float: left;
+}
+
+.content-sidebar-sidebar .content,
+.sidebar-content-sidebar .content,
+.sidebar-sidebar-content .content {
+	width: 520px;
+}
+
+.full-width-content .content {
+	width: 100%;
+}
+
+.full-width-content .entry {
+	padding-right: 0;
+}
+
+
+/* Primary Sidebar */
+
+.sidebar-primary {
+	float: right;
+	width: 360px;
+}
+
+.sidebar-content .sidebar-primary,
+.sidebar-sidebar-content .sidebar-primary {
+	float: left;
+}
+
+.sidebar ul li {
+	background-color: #fff;
+	font-family: 'Old Standard TT', serif;
+	text-align: center;
+}
+
+/* Secondary Sidebar */
+
+.sidebar-secondary {
+	float: left;
+	width: 180px;
+}
+
+.content-sidebar-sidebar .sidebar-secondary {
+	float: right;
+}
+
+
+/* Column Classes
+	Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+--------------------------------------------- */
+
+.five-sixths,
+.four-sixths,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fourths,
+.three-sixths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+	float: left;
+	margin-left: 2.564102564102564%;
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+	width: 48.717948717948715%;
+}
+
+.one-third,
+.two-sixths {
+	width: 31.623931623931625%;
+}
+
+.four-sixths,
+.two-thirds {
+	width: 65.81196581196582%;
+}
+
+.one-fourth {
+	width: 23.076923076923077%;
+}
+
+.three-fourths {
+	width: 74.35897435897436%;
+}
+
+.one-sixth {
+	width: 14.52991452991453%;
+}
+
+.five-sixths {
+	width: 82.90598290598291%;
+}
+
+.first {
+	clear: both;
+	margin-left: 0;
+}

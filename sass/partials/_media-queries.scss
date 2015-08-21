@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1139px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 960px;
+	}
+
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-sidebar-content .content-sidebar-wrap {
+		width: 740px;
+	}
+
+	.content,
+	.site-header .widget-area {
+		width: 620px;
+	}
+
+	.sidebar-content-sidebar .content,
+	.sidebar-sidebar-content .content,
+	.content-sidebar-sidebar .content {
+		width: 400px;
+	}
+
+	.sidebar-primary,
+	.title-area {
+		width: 300px;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+		background-color: #fff;
+	}
+
+	.content,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-primary,
+	.sidebar-secondary,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .content-sidebar-wrap,
+	.site-header .widget-area,
+	.site-inner,
+	.title-area,
+	.wrap {
+		width: 100%;
+	}
+
+	.top-bar-left,
+	.top-bar-right {
+		display: block;
+		margin: 10px auto;
+	}
+
+	.site-header .wrap {
+		padding: 20px 0;
+	}
+
+	.header-image .site-header .wrap {
+		background-position: center top;
+	}
+
+	.site-inner {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.archive-description,
+	.author-box,
+	.comment-respond,
+	.entry,
+	.entry-comments,
+	.entry-footer .entry-meta,
+	.header-image .site-header .widget-area,
+	.site-header {
+		padding: 0;
+	}
+
+	.comment-respond {
+		padding: 10px;
+	}
+
+	.genesis-nav-menu li,
+	.site-header ul.genesis-nav-menu,
+	.site-header .search-form {
+		float: none;
+	}
+
+	.genesis-nav-menu,
+	.site-description,
+	.site-header .title-area,
+	.site-header .search-form,
+	.site-title {
+		text-align: center;
+	}
+
+	.site-header .search-form {
+		margin: 16px auto ;
+	}
+
+	.genesis-nav-menu li.right {
+		display: none;
+	}
+
+	.entry-footer .entry-meta {
+		margin: 0;
+		padding-top: 12px;
+	}
+
+	.sidebar .widget.enews-widget {
+		padding: 40px;
+	}
+
+	.site-footer {
+		padding: 24px 0;
+	}
+
+	.alignleft .avatar, .alignright .avatar {
+		float: left;
+		max-width: 100px !important;
+	}
+
+}
+
+@media only screen and (max-width: 769px) {
+
+	.top-bar {
+		padding: 10px 20px 0px 20px;
+	}
+
+	.featured-circles .widget {
+		margin: 20px 0 0 0 !important;
+		padding: 0 0 10px 0 !important;
+		width: 20%;
+	}
+
+	.featured-circles .featured-content .entry {
+		padding: 0 !important;
+	}
+
+	.featured-circles .entry-title a, .featured-circles .widgettitle {
+		font-size: 14px;
+	}
+
+	.enews-widget input, .enews-widget input[type="submit"] {
+		width: 100%;
+	}
+
+	.enews-widget input {
+		margin-bottom: 7px;
+	}
+
+	.five-sixths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fourths,
+	.three-sixths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+	.comment-respond {
+		border: 0px solid #ddd;
+	}
+
+	.footer-widgets {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.home-featured-area .widget {
+		display: block;
+		margin-bottom: 0px;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.home-featured-area .featured-content .entry {
+		padding-bottom: 0;
+	}
+
+	.footer-widgets-2 {
+		border-left: 0;
+	}
+
+}
+
+@media only screen and (max-width: 520px) {
+	.featured-circles .entry-title a, .featured-circles .widgettitle {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+	.featured-circles .widget {
+		padding: 5px 5px;
+	}
+
+	.featured-circles {
+		border: none;
+	}
+
+	.footer-widgets {
+		border: none;
+	}
+
+	.site-container {
+		overflow: hidden;
+	}
+
+	.footer-widgets {
+		border: none;
+	}
+
+	.footer-widgets-1, .footer-widgets-2 {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.footer-widgets-1 {
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #ddd;
+		padding-top: 20px;
+	}
+
+	.footer-widgets-2 {
+		border-left: 0;
+		margin: 0 auto;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.footer-widgets-1 .widgettitle, .footer-widgets-2 .widgettitle, .footer-widgets .enews .widgettitle {
+		float: none;
+		text-align: center !important;
+	}
+
+	.site-footer p {
+		padding: 0 20px;
+	}
+
+	.footer-widgets .widget_nav_menu {
+		float: none;
+	}
+
+}

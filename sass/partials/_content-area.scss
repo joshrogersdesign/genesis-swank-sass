@@ -1,0 +1,262 @@
+/*  Drop Cap
+--------------------------------------------- */
+.post .entry-content p:first-child:first-letter { 
+	color: #f69c9b; 
+	float: left; 
+	font-family: 'Old Standard TT', serif;
+	font-size: 95px; 
+	line-height: 60px;
+	padding-right: 4px;
+}
+	
+/* Entries
+--------------------------------------------- */
+
+.entry {
+	background-color: #fff;
+	border-radius: 3px;
+	margin-bottom: 40px;
+	padding: 40px 20px 24px 0;
+}
+
+.entry-content a {
+	color: #f69c9b;
+}
+
+.entry-content a:hover {
+	color: #555;
+}
+
+.entry-content .attachment a,
+.entry-content .gallery a {
+	border: none;
+}
+
+.entry-content ol,
+.entry-content p,
+.entry-content ul,
+.quote-caption {
+	margin-bottom: 26px;
+}
+
+.entry-content ol,
+.entry-content ul {
+	margin-left: 40px;
+}
+
+.entry-content ol li {
+	list-style-type: decimal;
+}
+
+.entry-content ul li {
+	list-style-type: disc;
+}
+
+.entry-content ol ol,
+.entry-content ul ul {
+	margin-bottom: 0;
+}
+
+.entry-content .search-form {
+	width: 50%;
+}
+
+.entry-meta {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	color: #bbb;
+	font-family: 'Old Standard TT', serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 7px 0 7px 0;
+	text-transform: lowercase;
+}
+
+.entry-time, .entry-author {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.entry-header .entry-meta {
+	margin-bottom: 40px;
+}
+
+.entry-footer .entry-meta {
+	border-top: 2px solid #f5f5f5;
+	margin: 0 -40px;
+	padding: 32px 40px 8px;
+}
+
+.entry-comments-link::before, .entry-categories::before {
+	content: "|";
+	margin: 0 6px 0 2px;
+}
+
+.entry-categories a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.entry-comments-link {
+	text-transform: none;
+}
+
+/* Pagination
+--------------------------------------------- */
+
+.archive-pagination,
+.entry-pagination {
+	font-family: 'Old Standard TT', serif;
+	font-size: 14px;
+	margin: 40px 0;
+}
+
+.archive-pagination li {
+	display: inline;
+}
+
+.archive-pagination li a {
+	background-color: #ddd;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	padding: 8px 12px;
+}
+
+.archive-pagination li a:hover,
+.archive-pagination li.active a {
+	background-color: #999;
+}
+
+.entry-pagination a {
+	border-bottom: 1px solid #ddd;
+}
+
+/* Comments
+--------------------------------------------- */
+
+#respond textarea {
+	color: #999;
+	font-family: 'Old Standard TT', serif;
+	font-size: 16px;
+	text-transform: none;
+}
+
+.comment-respond,
+.entry-comments,
+.entry-pings {
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.comment-respond {
+	border: 1px solid #ddd;
+}
+
+.entry-comments {
+	padding: 0px;
+}
+
+.comment-respond,
+.entry-pings {
+	padding: 40px 40px 16px;
+}
+
+.comment-content {
+	clear: both;
+}
+
+.entry-comments .comment-author {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.comment-meta {
+	font-family: 'Old Standard TT', serif;
+}
+
+.says {
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+.comment-respond input[type="email"],
+.comment-respond input[type="text"],
+.comment-respond input[type="url"] {
+	width: 50%
+}
+
+.comment-respond label {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+
+.comment-subscription-form .subscribe-label {
+	font-size: 12px;
+	margin: 0;
+}
+
+p.comment-subscription-form {
+	margin: 0 0 4px 0;
+}
+
+p.logged-in-as {
+	margin: 0 0 2px 0;
+}
+
+.comment-list li,
+.ping-list li {
+	list-style-type: none;
+}
+
+.comment-list li {
+	margin-top: 24px;
+	padding: 32px;
+}
+
+.comment-list li li {
+	border-right: none;
+	margin-right: -32px;
+}
+
+li.comment {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.comment .avatar {
+	margin: 0 16px 24px 0;
+}
+
+.entry-pings .reply {
+	display: none;
+}
+
+.bypostauthor {
+	background-color: #f5f5f5 !important;
+	border-right: none;
+}
+
+.form-allowed-tags {
+	background-color: #f5f5f5;
+	display: none;
+	font-size: 14px;
+	padding: 24px;
+}
+
+.commentnumber {
+	float: right;
+	font-family: 'Old Standard TT', serif;
+	font-size: 40px;
+}

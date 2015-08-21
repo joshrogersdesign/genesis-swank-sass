@@ -1,0 +1,77 @@
+.footer-widgets {
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+	color: #999;
+	clear: both;
+}
+
+.footer-widgets p {
+	font-family: 'Old Standard TT', serif;
+	font-size: 14px;
+}
+
+.footer-widgets-1 {
+	padding: 40px 20px 20px 0;
+	width: 50%;
+}
+
+.footer-widgets-1 {
+	padding-right: 40px;
+}
+
+.footer-widgets-1:after {
+	border-right: 1px solid #ddd;
+}
+
+.footer-widgets-1 {
+	float: left;
+}
+
+.footer-widgets-2 {
+	border-left: 1px solid #ddd;
+	float: right;
+	padding: 40px 0 20px 30px;
+	width: 50%;
+}
+
+.footer-widgets a {
+	border-bottom: 1px solid #ddd;
+	color: #999;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+.footer-widgets a:hover {
+	color: #ddd;
+}
+
+.footer-widgets .widget {
+	margin-bottom: 24px;
+}
+
+.footer-widgets .widgettitle {
+	color: #bbb;
+	font-family: 'Old Standard TT', serif;
+	font-size: 16px;
+	font-style: italic;
+	text-transform: none;
+}
+
+.footer-widgets-1 .widget-title {
+	text-align: left !important;
+}
+
+.footer-widgets-2 .widget-title {
+	text-align: right !important;
+}
+
+.footer-widgets li {
+	list-style-type: none;
+	margin-bottom: 6px;
+	word-wrap: break-word;
+}
+
+.footer-widgets .search-form input:focus {
+	border: 1px solid #ddd;
+}
