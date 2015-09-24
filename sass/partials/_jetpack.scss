@@ -1,13 +1,14 @@
 
 .content div.sharedaddy div.sd-block {
-	border-bottom: 1px dashed #ddd;
-	border-top: 1px dashed #ddd;
-	padding: 0;
+    padding: 0;
+    border-top: 0px dashed #ddd;
+    border-bottom: 0px dashed #ddd;
 }
 
 .content div.sharedaddy .sd-content {
-	float: left;
-	padding: 15px 0 10px 0;
+    float: left;
+    padding: 5px 60px 10px 0;
+    clear: left;
 }
 
 .content div.sharedaddy a.sd-button {
@@ -24,7 +25,7 @@
 
 .content a.sd-button > span {
 	background-image: none !important;
-	background: #999;
+	background: #BFD5E6;
 	border: none;
 	color: #fff;
 	font-size: 12px;
@@ -41,3 +42,9 @@
 	color: #bbb !important;
 	font-size: 100% !important;
 }
+
+.content .sd-social-icon-text a.sd-button>span, a.sd-button>span {
+    padding: 4px 18px 4px 18px;
+    opacity: 1;
+}
+

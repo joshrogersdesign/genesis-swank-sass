@@ -10,7 +10,7 @@ add_action( 'genesis_meta', 'swank_home_genesis_meta' );
  */
 function swank_home_genesis_meta() {
 
-	if ( is_active_sidebar( 'home-slider' ) || is_active_sidebar( 'featured-circles' ) || is_active_sidebar( 'home-featured-area' )) 
+	if ( is_active_sidebar( 'home-slider' ) || is_active_sidebar ( 'under-home-slider' ) || is_active_sidebar( 'featured-circles' ) || is_active_sidebar( 'home-featured-area' )) 
 
 		//* Force full width content layout
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
@@ -31,6 +31,11 @@ function swank_homepage_widgets() {
 
 	genesis_widget_area( 'home-slider', array(
 		'before' => '<div class="home-slider widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
+
+	genesis_widget_area( 'under-home-slider', array(
+		'before' => '<div class="under-home-slider widget-area"><div class="wrap">',
 		'after'  => '</div></div>',
 	) );
 

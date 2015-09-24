@@ -1,18 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
 /* Typographical Elements
 --------------------------------------------- */
+
 
 html {
 	font-size: 62.5%; /* 10px browser default */
 }
 
 body {
-	background-color: #fff;
-	color: #999;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	letter-spacing: 1px;
-	line-height: 2;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #555;
+    background-color: rgb(219, 217, 214);
 }
 
 a,
@@ -31,17 +34,17 @@ textarea:focus,
 }
 
 ::-moz-selection {
-	background-color: #f69c9b;
+	background-color: #916928;;
 	color: #fff;
 }
 
 ::selection {
-	background-color: #f69c9b;
+	background-color: #916928;;
 	color: #fff;
 }
 
 a {
-	color: #f69c9b;
+	color: #916928;
 	text-decoration: none;
 }
 
@@ -50,7 +53,7 @@ a img {
 }
 
 a:hover {
-	color: #999;
+	color: #005486;
 }
 
 strong {
@@ -66,6 +69,7 @@ ol,
 ul {
 	margin: 0;
 	padding: 0;
+	color: #005486;
 }
 
 li {
@@ -98,7 +102,7 @@ blockquote {
 blockquote::before {
 	content: "\201C";
 	display: block;
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Crimson Text', Helvetica, Arial, Sans-Serif;
 	font-size: 30px;
 	height: 0;
 	left: -20px;
@@ -131,34 +135,49 @@ h4,
 h5,
 h6 {
 	color: #545454;
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Open Sans', Helvetica, Arial, Sans-Serif;
 	font-weight: 400;
 	line-height: 1.2;
 	margin: 0 0 16px;
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #005486;
+	font-family: 'Crimson Text', Helvetica, Arial, Sans-Serif;
 }
 
 h2 {
 	font-size: 30px;
+	color: #005486;
+	font-family: 'Crimson Text', Helvetica, Arial, Sans-Serif;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 26px;
+	color: #005486;
+	font-family: 'Open Sans', Helvetica, Arial, Sans-Serif;
 }
 
 h4 {
-	font-size: 20px;
+    font-size: 19px;
+    color: #005486;
+    border-top: 2px #005486 solid;
+    font-family: 'Crimson Text', Helvetica, Arial, Sans-Serif;
+    padding-top: .5em;
 }
 
 h5 {
 	font-size: 18px;
+	line-height: 1.5em;
+	font-family: 'Open Sans', Helvetica, Arial, Sans-Serif;
 }
 
 h6 {
-	font-size: 16px;
+    font-size: 16px;
+    line-height: 2em;
+    text-transform: uppercase;
 }
 
 /* Objects
@@ -187,7 +206,7 @@ select,
 textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
-	color: #bbb;
+	color: #444;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 11px;
 	letter-spacing: 1px;
@@ -217,7 +236,7 @@ input[type="reset"],
 input[type="submit"],
 .button,
 .entry-content .button {
-	background-color: #f69c9b;
+	background-color: #BFD5E6 !important;
 	border: none;
 	box-shadow: none;
 	color: #fff;
@@ -278,4 +297,19 @@ th {
 td {
 	border-top: 1px solid #ddd;
 	padding: 6px 0;
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0px;
+    border: .07em solid;
+    color: #005486 !important;
+}
+
+/*-----IMAGES
+--------------------*/
+img.alignnone {
+    margin-bottom: 12px;
+    background-color: #EFEEEA !important;
 }

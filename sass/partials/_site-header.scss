@@ -1,5 +1,5 @@
 .site-header {
-	background-color: #fff;
+	background-color: #EFEEEA;
 }
 
 .site-header .wrap {
@@ -27,10 +27,77 @@
 	padding: 0;
 }
 
+/*----HERO IMAGE STLYES----*/
+/*.above-post-hero {
+	margin-top: 3em;
+	max-width: 100%;
+	height: 450px !important;
+	background-size: cover;
+	background-position: 50% 50%;
+}--*/
+
+.above-post-hero {
+max-width:100%;
+height:400px;
+max-height:100%;
+background-repeat:no-repeat;
+background-size:100%;
+background-position:50% 50%;
+}
+
+
+.above-post-hero {
+padding-top: 28.5714285714%;
+display: block;
+height: 0;
+}
+
+.single-above-post-hero {
+max-width:100%;
+height: 400px;
+max-height:100%;
+background-repeat:no-repeat;
+background-size:100%;
+background-position:50% 50%;
+}
+
+
+.single-above-post-hero {
+padding-top: 28.5714285714%;
+display: block;
+height: 0;
+}
+
+/*-@media only screen and (min-width: 480px) {
+.single.above-post-hero {
+    background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/08/Blog-Banner-1200x400.jpg);
+    height: 550px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.single.above-post-hero {
+    background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/08/Blog-Banner-1200x400.jpg);
+    height: 280px;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+.single.above-post-hero {
+    background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/08/Blog-Banner-1200x400.jpg);
+    height: 550px;
+}
+}-*/
+
+
+
+
+
 .site-title {
 	font-size: 58px;
 	line-height: 0.8;
-	margin: 0 0 12px 0;
+	margin: 0 0 .6em 0;
 	text-transform: none;
 }
 
@@ -68,17 +135,24 @@
 /* Logo, hide text */
 
 .header-image .site-title > a {
-	background-size: contain !important;
-	display: block;
-	height: 100px;
-	margin: 10px auto;
-	text-indent: -9999px;
-	max-width: 320px;
+    display: block !important;
+    max-width: 100% !important;
+    height: 170px !important;
+    width: 620px !important;
+    margin: 1px auto -1em;
+    text-indent: -9999px !important;
+    background-size: cover !important;
+}
+
+.header-image .site-title>a {
+    margin: 1px auto -1em !important;
+    background-size: cover !important;
 }
 
 .header-image .site-title a {
 	width: 100%;
 }
+
 
 /* Widget Area
 --------------------------------------------- */
@@ -99,6 +173,15 @@
 }
 
 .site-header .search-form {
-	float: right;
-	margin-top: 24px;
+    float: right;
+    width: 34%;
+    margin-top: 24px;
 }
+
+
+/*------HOMEPAGE SITE INNER TOP PADDING------*/
+
+.homepage-inner {
+	padding-top: 40px;
+}
+

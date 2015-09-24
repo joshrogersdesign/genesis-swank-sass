@@ -1,11 +1,11 @@
 
 /* Site Containers
---------------------------------------------- */
+--------------------------------------------------- */
 
 .site-container  {
-	background: #fff;
+	background-color: #EFEEEA !important;
 	margin: 0 auto;
-	max-width: 1140px;
+	/*-max-width: 1140px;-*/
 }
 
 .site-inner,
@@ -14,9 +14,22 @@
 	max-width: 1140px;
 }
 
+.genesis-nav-menu,
+.wrap { 
+	margin: 0 auto;
+	max-width: 200em !important;
+}
+
+.site-footer, 
+.wrap { 
+	margin: 0 auto;
+	max-width: 200em !important;
+}
+
+
 .site-inner {
 	clear: both;
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 /*
@@ -26,14 +39,22 @@ Home Page Widgets
 /*
 Home Slider Widget
 --------------------------------------------- */
-.home-slider {
-	border-bottom: 1px solid #ddd;
+.home-slider, .under-home-slider {
+	border-bottom: 0px solid #ddd;
 	float: none;
 	margin: 0 auto;
 	padding-bottom: 40px;
 	text-align: center;
 }
 
+.under-home-slider {
+	border-bottom: 0px solid #ddd;
+	float: none;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 40px;
+	text-align: center;
+}
 
 /* Direction Nav */
 .flex-direction-nav li a {
@@ -76,8 +97,10 @@ Featured Circles
 }
 
 .featured-circles {
-	border-bottom: 1px solid #ddd;
-	text-align: center;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #005486!important;
+    border-bottom: .17em solid;
 }
 
 .featured-circles img {
@@ -95,9 +118,10 @@ Featured Circles
 
 .featured-circles .widget {
 	display: inline-block;
-	padding: 20px 25px;
+	padding: 20px 5px;
+	vertical-align: top;
 	text-align: center;
-	width: 20%;
+	width: 12%;
 }
 
 .featured-circles .widget-title {
@@ -109,6 +133,17 @@ Featured Circles
 	border-bottom: 0;
 }
 
+.featured-circles .entry-title {
+    font-size: 1.32rem!important;
+}
+
+#text-4 {
+    float: left;
+    width: 1160px;
+    max-width: 100%;
+    margin: .05em auto -1.2em;
+}
+
 /*
 Home Featured Widget Area
 --------------------------------------------- */
@@ -118,7 +153,7 @@ Home Featured Widget Area
 	margin-bottom: 10px;
 	margin-top: 40px;
 	padding: 0 2.8%;
-	width: 33.33333333333%;
+	width: 100%;
 }
 
 .home-featured-area .featured-content .entry-title {
@@ -259,9 +294,11 @@ Home Featured Widget Area
 }
 
 .sidebar ul li {
-	background-color: #fff;
-	font-family: 'Old Standard TT', serif;
-	text-align: center;
+    font-family: 'Open Sans',serif;
+    text-align: center;
+    font-weight: 400;
+    padding: 1em;
+    background-color: #fff;
 }
 
 /* Secondary Sidebar */
@@ -290,7 +327,8 @@ Home Featured Widget Area
 .three-sixths,
 .two-fourths,
 .two-sixths,
-.two-thirds {
+.two-thirds, 
+.four-sevenths {
 	float: left;
 	margin-left: 2.564102564102564%;
 }
@@ -309,6 +347,16 @@ Home Featured Widget Area
 .four-sixths,
 .two-thirds {
 	width: 65.81196581196582%;
+}
+
+.four-sevenths {
+	width: 62.142858%;
+}
+
+.three-sevenths {
+	width: 37.857143%;
+	padding-left: 2em;
+	float: right;
 }
 
 .one-fourth {
@@ -330,4 +378,65 @@ Home Featured Widget Area
 .first {
 	clear: both;
 	margin-left: 0;
+	
 }
+
+.full-width-col {
+	width: 100%;
+}
+
+/*---NEW HOME CALL TO ACTION APPOINTMENT----*/
+
+#text-8 {
+    background: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/09/ShelbyAppt.jpg) 50% 95% no-repeat;
+    min-height: 40em;
+}
+
+#text-8 > div > div {
+	margin-top: 28em;
+
+}
+
+/*---------ADD TOP BORDER TO HEADINGS-----*/
+
+.heading-top {
+	padding-top: .5em;
+    border-top: 2px #005486 solid;
+    width: 35%;
+}
+
+.doc-resources .heading-top {
+	padding-top: .5em;
+    border-top: 2px #005486 solid;
+    width: 50%;
+}
+
+img {
+    background: #efeeea none repeat scroll 0 0  !important;
+    height: auto;
+    width: auto;
+}
+
+body > div.site-container > div.site-inner > div > div > main > article > div > div.new-inner-wrap > div:nth-child(10) > img {
+	background: #efeeea !important;
+}
+
+
+/*---PATIENT PAGE PADDING----*/
+.patient-padding {
+	padding-top: 1em;
+}
+
+/*---BLOG PAGE TOP BORDER TITLES------*/
+.blog-page-class .entry::before {
+    width: 55%;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    padding-top: .3em;
+    border-top: 2px #005486 solid;
+}
+
+.blog-page-class .entry-title a {
+	color: #005486 !important;
+}
+
