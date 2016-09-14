@@ -14,3 +14,54 @@ body .theme-simple #mailmunch-optin-form input.submit {
     font-size: 1.6em !important;
     color: #005486 !important;
 }
+
+
+#mc_embed_signup h2 {
+    font-family: 'Open Sans' Sans-serif!important;
+    font-size: 1.2em!important;
+    font-weight: 400!important;
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 2px #005486 solid !important;
+    padding: .5em 0 !important;
+    width: 97% !important;
+}
+
+#mc_embed_signup .indicates-required {
+    /* text-align: right; */
+    font-size: 11px;
+    /* margin-right: 4%; */
+    display: none !important;
+}
+
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    width: 96%;
+    padding: 0 3% 7% !important;
+    text-transform: uppercase !important;
+    font-family: 'Open Sans' !important;
+    min-height: 50px;
+}
+
+#mc_embed_signup .button {
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    color: #005486 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400 !important;
+    height: 32px;
+    line-height: 4px !important;
+    margin: 0 5px 10px 0;
+    padding: 12% 30% !important;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}

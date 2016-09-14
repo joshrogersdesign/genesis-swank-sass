@@ -230,20 +230,16 @@ textarea:focus {
 	color: #999;
 }
 
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-.button,
-.entry-content .button {
-	background-color: #BFD5E6 !important;
-	border: none;
-	box-shadow: none;
-	color: #fff;
-	cursor: pointer;
-	padding: 16px 24px;
-	text-transform: uppercase;
-	width: auto;
+.button, .entry-content .button, button, input[type=button], input[type=reset], input[type=submit] {
+    width: auto;
+    padding: 16px 24px;
+    cursor: pointer;
+    font-style: normal !important;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: #263645!important;
+    box-shadow: none;
 }
 
 button:hover,

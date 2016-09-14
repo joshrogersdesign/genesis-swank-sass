@@ -818,13 +818,15 @@ textarea:focus
 
 /* line 233, sass/partials/_defaults.scss */
 
-button,
-input[type='button'],
-input[type='reset'],
-input[type='submit'],
 .button,
-.entry-content .button
+.entry-content .button,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit]
 {
+    font-style: normal !important;
+
     width: auto;
     padding: 16px 24px;
 
@@ -833,11 +835,11 @@ input[type='submit'],
 
     color: #fff;
     border: none;
-    background-color: #bfd5e6 !important;
+    background-color: #263645 !important;
     box-shadow: none;
 }
 
-/* line 249, sass/partials/_defaults.scss */
+/* line 245, sass/partials/_defaults.scss */
 
 button:hover,
 input:hover[type='button'],
@@ -849,14 +851,14 @@ input:hover[type='submit'],
     background-color: #999;
 }
 
-/* line 258, sass/partials/_defaults.scss */
+/* line 254, sass/partials/_defaults.scss */
 
 .entry-content .button:hover
 {
     color: #fff;
 }
 
-/* line 262, sass/partials/_defaults.scss */
+/* line 258, sass/partials/_defaults.scss */
 
 .button
 {
@@ -865,7 +867,7 @@ input:hover[type='submit'],
     border-radius: 3px;
 }
 
-/* line 267, sass/partials/_defaults.scss */
+/* line 263, sass/partials/_defaults.scss */
 
 input[type='search']::-webkit-search-cancel-button,
 input[type='search']::-webkit-search-results-button
@@ -876,7 +878,7 @@ input[type='search']::-webkit-search-results-button
 /* Tables
 --------------------------------------------- */
 
-/* line 275, sass/partials/_defaults.scss */
+/* line 271, sass/partials/_defaults.scss */
 
 table
 {
@@ -889,14 +891,14 @@ table
     border-collapse: collapse;
 }
 
-/* line 283, sass/partials/_defaults.scss */
+/* line 279, sass/partials/_defaults.scss */
 
 tbody
 {
     border-bottom: 1px solid #ddd;
 }
 
-/* line 287, sass/partials/_defaults.scss */
+/* line 283, sass/partials/_defaults.scss */
 
 th,
 td
@@ -904,7 +906,7 @@ td
     text-align: left;
 }
 
-/* line 292, sass/partials/_defaults.scss */
+/* line 288, sass/partials/_defaults.scss */
 
 th
 {
@@ -913,7 +915,7 @@ th
     text-transform: uppercase;
 }
 
-/* line 297, sass/partials/_defaults.scss */
+/* line 293, sass/partials/_defaults.scss */
 
 td
 {
@@ -922,7 +924,7 @@ td
     border-top: 1px solid #ddd;
 }
 
-/* line 302, sass/partials/_defaults.scss */
+/* line 298, sass/partials/_defaults.scss */
 
 hr
 {
@@ -937,7 +939,7 @@ hr
 /*-----IMAGES
 --------------------*/
 
-/* line 312, sass/partials/_defaults.scss */
+/* line 308, sass/partials/_defaults.scss */
 
 img.alignnone
 {
@@ -2664,7 +2666,7 @@ Site Header
 .above-post-hero
 {
     max-width: 100%;
-    height: 400px;
+    height: 375px;
     max-height: 100%;
 
     background-repeat: no-repeat;
@@ -2679,15 +2681,16 @@ Site Header
     display: block;
 
     height: 0;
+    margin-top: -2em;
     padding-top: 28.5714285714%;
 }
 
-/* line 55, sass/partials/_site-header.scss */
+/* line 56, sass/partials/_site-header.scss */
 
 .single-above-post-hero
 {
     max-width: 100%;
-    height: 400px;
+    height: 375px;
     max-height: 100%;
 
     background-repeat: no-repeat;
@@ -2695,13 +2698,14 @@ Site Header
     background-size: 100%;
 }
 
-/* line 65, sass/partials/_site-header.scss */
+/* line 66, sass/partials/_site-header.scss */
 
 .single-above-post-hero
 {
     display: block;
 
     height: 0;
+    margin-top: -2em;
     padding-top: 28.5714285714%;
 }
 
@@ -2727,33 +2731,33 @@ Site Header
 }
 }-*/
 
-/* line 97, sass/partials/_site-header.scss */
+/* line 99, sass/partials/_site-header.scss */
 
 .site-title
 {
     font-size: 58px;
     line-height: .8;
 
-    margin: 0 0 .6em 0;
+    margin: 0 0 .8em 0;
 
     text-transform: none;
 }
 
-/* line 104, sass/partials/_site-header.scss */
+/* line 106, sass/partials/_site-header.scss */
 
 .site-title a
 {
     color: #555;
 }
 
-/* line 108, sass/partials/_site-header.scss */
+/* line 110, sass/partials/_site-header.scss */
 
 .site-title a:hover
 {
     color: #bbb;
 }
 
-/* line 112, sass/partials/_site-header.scss */
+/* line 114, sass/partials/_site-header.scss */
 
 .site-description
 {
@@ -2771,7 +2775,7 @@ Site Header
 
 /* Full width header, no widgets */
 
-/* line 124, sass/partials/_site-header.scss */
+/* line 126, sass/partials/_site-header.scss */
 
 .header-full-width .title-area,
 .header-full-width .site-title
@@ -2779,7 +2783,7 @@ Site Header
     width: 100%;
 }
 
-/* line 129, sass/partials/_site-header.scss */
+/* line 131, sass/partials/_site-header.scss */
 
 .header-image .site-description,
 .header-image .site-title a
@@ -2791,7 +2795,7 @@ Site Header
 
 /* Logo, hide text */
 
-/* line 137, sass/partials/_site-header.scss */
+/* line 139, sass/partials/_site-header.scss */
 
 .header-image .site-title > a
 {
@@ -2807,7 +2811,7 @@ Site Header
     background-size: cover !important;
 }
 
-/* line 147, sass/partials/_site-header.scss */
+/* line 149, sass/partials/_site-header.scss */
 
 .header-image .site-title > a
 {
@@ -2816,7 +2820,7 @@ Site Header
     background-size: cover !important;
 }
 
-/* line 152, sass/partials/_site-header.scss */
+/* line 154, sass/partials/_site-header.scss */
 
 .header-image .site-title a
 {
@@ -2826,14 +2830,14 @@ Site Header
 /* Widget Area
 --------------------------------------------- */
 
-/* line 160, sass/partials/_site-header.scss */
+/* line 162, sass/partials/_site-header.scss */
 
 .widget-area
 {
     word-wrap: break-word;
 }
 
-/* line 164, sass/partials/_site-header.scss */
+/* line 166, sass/partials/_site-header.scss */
 
 .site-header .widget-area
 {
@@ -2845,30 +2849,30 @@ Site Header
     text-align: right;
 }
 
-/* line 171, sass/partials/_site-header.scss */
+/* line 173, sass/partials/_site-header.scss */
 
 .header-image .site-header .widget-area
 {
     padding: 40px 0;
 }
 
-/* line 175, sass/partials/_site-header.scss */
+/* line 177, sass/partials/_site-header.scss */
 
 .site-header .search-form
 {
     float: right;
 
     width: 34%;
-    margin-top: 24px;
+    margin-top: 0;
 }
 
 /*------HOMEPAGE SITE INNER TOP PADDING------*/
 
-/* line 184, sass/partials/_site-header.scss */
+/* line 187, sass/partials/_site-header.scss */
 
 .homepage-inner
 {
-    padding-top: 40px;
+    padding-top: 0;
 }
 
 /*
@@ -2890,11 +2894,9 @@ Site Navigation
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
-    color: #efefef;
 }
 
-/* line 13, sass/partials/_site-navigation.scss */
+/* line 12, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .menu-item
 {
@@ -2905,7 +2907,7 @@ Site Navigation
     text-align: center;
 }
 
-/* line 19, sass/partials/_site-navigation.scss */
+/* line 18, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu a
 {
@@ -2919,41 +2921,63 @@ Site Navigation
     margin-left: auto;
     padding: 18px 0;
 
-    color: #efefef;
     border: none;
+}
+
+/*----SUB MENU ITEMS-----*/
+
+/* line 30, sass/partials/_site-navigation.scss */
+
+ul.sub-menu li a
+{
+    color: #999 !important;
+}
+
+/* line 34, sass/partials/_site-navigation.scss */
+
+ul.sub-menu li a:hover
+{
+    color: #917d64 !important;
+}
+
+/* line 38, sass/partials/_site-navigation.scss */
+
+ul.sub-menu .current-menu-item
+{
+    color: #e7e7e7;
 }
 
 /*---REMOVE LAST ITEM MARGIN-----*/
 
-/* line 32, sass/partials/_site-navigation.scss */
+/* line 44, sass/partials/_site-navigation.scss */
 
 #menu-item-14
 {
     margin-right: 0 !important;
 }
 
-/* line 36, sass/partials/_site-navigation.scss */
+/* line 48, sass/partials/_site-navigation.scss */
 
 #menu-primary-1 > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-14
 {
     margin-right: 0 !important;
 }
 
-/* line 40, sass/partials/_site-navigation.scss */
+/* line 52, sass/partials/_site-navigation.scss */
 
 #menu-primary
 {
     background-color: #005486 !important;
 }
 
-/* line 44, sass/partials/_site-navigation.scss */
+/* line 56, sass/partials/_site-navigation.scss */
 
 #menu-primary-1
 {
     background-color: #efeeea !important;
 }
 
-/* line 48, sass/partials/_site-navigation.scss */
+/* line 60, sass/partials/_site-navigation.scss */
 
 #menu-primary-1 a
 {
@@ -2961,7 +2985,7 @@ Site Navigation
     background-color: #efeeea !important;
 }
 
-/* line 53, sass/partials/_site-navigation.scss */
+/* line 65, sass/partials/_site-navigation.scss */
 
 #menu-primary-1 a:hover
 {
@@ -2969,21 +2993,21 @@ Site Navigation
     background-color: #efeeea !important;
 }
 
-/* line 58, sass/partials/_site-navigation.scss */
+/* line 70, sass/partials/_site-navigation.scss */
 
 #menu-primary-1
 {
     padding-bottom: 2em;
 }
 
-/* line 62, sass/partials/_site-navigation.scss */
+/* line 74, sass/partials/_site-navigation.scss */
 
 .nav-secondary .genesis-nav-menu a
 {
     padding: 18px 0 7px 15px;
 }
 
-/* line 66, sass/partials/_site-navigation.scss */
+/* line 78, sass/partials/_site-navigation.scss */
 
 .nav-primary li a::after
 {
@@ -2993,7 +3017,7 @@ Site Navigation
   padding-right: 25px !important;-*/
 }
 
-/* line 74, sass/partials/_site-navigation.scss */
+/* line 85, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .sub-menu a::after
 {
@@ -3002,23 +3026,21 @@ Site Navigation
     color: #fff !important;
 }
 
-/* line 80, sass/partials/_site-navigation.scss */
+/* line 91, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .last > a::after
 {
     color: #fff;
 }
 
-/* line 84, sass/partials/_site-navigation.scss */
+/* line 95, sass/partials/_site-navigation.scss */
 
-.genesis-nav-menu a:hover,
-.genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover
+.genesis-nav-menu a:hover
 {
-    color: #999 !important;
+    color: #b8b8b8 !important;
 }
 
-/* line 90, sass/partials/_site-navigation.scss */
+/* line 99, sass/partials/_site-navigation.scss */
 
 .nav-primary .current-menu-item > a
 {
@@ -3027,35 +3049,31 @@ Site Navigation
     border-bottom: 2px #fff solid;
 }
 
-/* line 96, sass/partials/_site-navigation.scss */
+/* line 104, sass/partials/_site-navigation.scss */
+
+.genesis-nav-menu .sub-menu .current-menu-item
+{
+    color: #916928 !important;
+}
+
+/* line 109, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .sub-menu .current-menu-item > a
 {
-    color: #bbb;
+    color: #916928 !important;
 }
 
-/* line 100, sass/partials/_site-navigation.scss */
-
-.genesis-nav-menu > .menu-item > a
-{
-    padding-right: .20em;
-    padding-left: .3em;
-
-    text-transform: uppercase;
-}
-
-/* line 107, sass/partials/_site-navigation.scss */
+/* line 131, sass/partials/_site-navigation.scss */
 
 .menu-item > a:hover
 {
-    padding-bottom: 3px;
-
-    color: #efefef; /*-width: 75%;-*/ /*padding-right: 5px;
+    padding-bottom: 3px; /*-width: 75%;-*/ /*padding-right: 5px;
   padding-left: 5px;*/
+
     border-bottom: 2px solid #fff;
 }
 
-/* line 116, sass/partials/_site-navigation.scss */
+/* line 139, sass/partials/_site-navigation.scss */
 
 .menu-secondary > .menu-item > a:hover
 {
@@ -3065,7 +3083,7 @@ Site Navigation
     border-bottom: 0 solid #fff;
 }
 
-/* line 122, sass/partials/_site-navigation.scss */
+/* line 145, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .sub-menu
 {
@@ -3080,7 +3098,7 @@ Site Navigation
     opacity: 0;
 }
 
-/* line 135, sass/partials/_site-navigation.scss */
+/* line 158, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .sub-menu a
 {
@@ -3096,21 +3114,21 @@ Site Navigation
     background-color: #fff;
 }
 
-/* line 145, sass/partials/_site-navigation.scss */
+/* line 168, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .sub-menu .sub-menu
 {
     margin: -39px 0 0 199px;
 }
 
-/* line 149, sass/partials/_site-navigation.scss */
+/* line 172, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .menu-item:hover
 {
     position: static;
 }
 
-/* line 153, sass/partials/_site-navigation.scss */
+/* line 176, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu .menu-item:hover > .sub-menu
 {
@@ -3119,21 +3137,21 @@ Site Navigation
     opacity: 1;
 }
 
-/* line 158, sass/partials/_site-navigation.scss */
+/* line 181, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .first > a
 {
     padding-left: 0;
 }
 
-/* line 162, sass/partials/_site-navigation.scss */
+/* line 185, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .last > a
 {
     padding-right: 0;
 }
 
-/* line 166, sass/partials/_site-navigation.scss */
+/* line 189, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .right
 {
@@ -3147,7 +3165,7 @@ Site Navigation
     text-transform: uppercase;
 }
 
-/* line 174, sass/partials/_site-navigation.scss */
+/* line 197, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .right > a
 {
@@ -3156,14 +3174,14 @@ Site Navigation
     padding: 0;
 }
 
-/* line 179, sass/partials/_site-navigation.scss */
+/* line 202, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .rss > a
 {
     margin-left: 48px;
 }
 
-/* line 183, sass/partials/_site-navigation.scss */
+/* line 206, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .search input
 {
@@ -3172,7 +3190,7 @@ Site Navigation
     color: #ddd;
 }
 
-/* line 188, sass/partials/_site-navigation.scss */
+/* line 211, sass/partials/_site-navigation.scss */
 
 .genesis-nav-menu > .right.search
 {
@@ -3182,14 +3200,14 @@ Site Navigation
 /* Site Header Navigation
 --------------------------------------------- */
 
-/* line 195, sass/partials/_site-navigation.scss */
+/* line 218, sass/partials/_site-navigation.scss */
 
 .site-header .sub-menu
 {
     border-top: 1px solid #eee;
 }
 
-/* line 199, sass/partials/_site-navigation.scss */
+/* line 222, sass/partials/_site-navigation.scss */
 
 .site-header .sub-menu .sub-menu
 {
@@ -3199,7 +3217,7 @@ Site Navigation
 /* Primary Navigation
 --------------------------------------------- */
 
-/* line 206, sass/partials/_site-navigation.scss */
+/* line 229, sass/partials/_site-navigation.scss */
 
 .nav-primary
 {
@@ -3211,21 +3229,21 @@ Site Navigation
     box-shadow: 0 -2px 16px 5px rgba(0, 0, 0, .35) !important;
 }
 
-/* line 217, sass/partials/_site-navigation.scss */
+/* line 240, sass/partials/_site-navigation.scss */
 
 .nav-primary .current-menu-item > a
 {
-    color: #fff !important;
+    color: #fff;
 }
 
-/* line 221, sass/partials/_site-navigation.scss */
+/* line 244, sass/partials/_site-navigation.scss */
 
 .nav-primary a:hover
 {
     color: #999;
 }
 
-/* line 225, sass/partials/_site-navigation.scss */
+/* line 248, sass/partials/_site-navigation.scss */
 
 .nav-primary .sub-menu a:hover
 {
@@ -3235,7 +3253,7 @@ Site Navigation
 /* Secondary Navigation
 --------------------------------------------- */
 
-/* line 232, sass/partials/_site-navigation.scss */
+/* line 255, sass/partials/_site-navigation.scss */
 
 .nav-secondary
 {
@@ -3245,7 +3263,7 @@ Site Navigation
     background-color: #efeeea !important;
 }
 
-/* line 238, sass/partials/_site-navigation.scss */
+/* line 261, sass/partials/_site-navigation.scss */
 
 .nav-secondary li a::after
 {
@@ -3911,6 +3929,17 @@ div.new-inner-wrap
     margin-left: 0;
 }
 
+/*--------FIX SERVICES PAGE BUTTON MARGINS--------*/
+
+/* line 407, sass/partials/_content-area.scss */
+
+.patient-resources a.button-blue
+{
+    display: inline-block;
+
+    margin: .5em 0;
+}
+
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
@@ -4020,14 +4049,14 @@ Viba Portfolio
 
 .vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
 {
-    padding: 3.5em;
+    padding: .5em 2.3em;
 }
 
 /* line 27, sass/partials/_viba-portfolio.scss */
 
 .vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
 {
-    padding: 3.5em;
+    padding: .5em 2.3em;
 }
 
 /* line 31, sass/partials/_viba-portfolio.scss */
@@ -4317,6 +4346,24 @@ Footer Widgets
     padding-top: 40px !important;
 }
 
+/* line 111, sass/partials/_footer-widgets.scss */
+
+.footer-widgets .simple-social-icons ul li a
+{
+    color: #fff !important;
+    border-color: #263645 !important;
+    background-color: #263645 !important;
+}
+
+/* line 118, sass/partials/_footer-widgets.scss */
+
+.footer-widgets .simple-social-icons ul li a:hover
+{
+    color: #fff !important;
+    border-color: #00375b !important;
+    background-color: #00375b !important;
+}
+
 /*
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
@@ -4373,6 +4420,13 @@ Media Queries
 
 /*----------IPHONE 5-----------*/
 
+/* line 550, sass/partials/_media-queries.scss */
+
+.mobile-gmap
+{
+    display: none;
+}
+
 /*----------IPHONE 6-----------*/
 
 /*----------IPHONE 6 PLUS-------*/
@@ -4407,6 +4461,13 @@ nav
 
 /* Navigation toggles
 --------------------------------------------- */
+
+/*--@media only screen and (min-width: 769px) {
+
+	nav {
+		    display: block;
+	}
+}--*/
 
 /* Navigation toggles - Mobile
 --------------------------------------------- */
@@ -4446,11 +4507,122 @@ body .theme-simple #mailmunch-optin-form input.submit
     border-radius: 3px;
 }
 
+/* line 19, sass/partials/_mailmunch.scss */
+
+#mc_embed_signup h2
+{
+    font-family: 'Open Sans' Sans-serif !important;
+    font-size: 1.2em !important;
+    font-weight: 400 !important;
+
+    width: 97% !important;
+    margin: 15px 0;
+    padding: .5em 0 !important;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    border-top: 2px #005486 solid !important;
+}
+
+/* line 31, sass/partials/_mailmunch.scss */
+
+#mc_embed_signup .indicates-required
+{
+    /* text-align: right; */
+    font-size: 11px; /* margin-right: 4%; */
+
+    display: none !important;
+}
+
+/* line 38, sass/partials/_mailmunch.scss */
+
+#mc_embed_signup .mc-field-group
+{
+    font-family: 'Open Sans' !important;
+
+    position: relative;
+
+    clear: left;
+
+    width: 96%;
+    min-height: 50px;
+    padding: 0 3% 7% !important;
+
+    text-transform: uppercase !important;
+}
+
+/* line 48, sass/partials/_mailmunch.scss */
+
+#mc_embed_signup .button
+{
+    font-size: 15px;
+    font-weight: 400 !important;
+    line-height: 4px !important;
+
+    display: inline-block;
+    clear: both;
+
+    width: auto;
+    height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 12% 30% !important;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: #005486 !important;
+    border: 0 none;
+    border-radius: 4px;
+    background-color: #aaa;
+}
+
 /*# sourceMappingURL=style.css.map */
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1824px)
+{
+    /* line 115, sass/partials/_site-navigation.scss */
+
+    .genesis-nav-menu > .menu-item > a
+    {
+        padding-right: .20em;
+        padding-left: .3em;
+
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px)
+{
+    /* line 123, sass/partials/_site-navigation.scss */
+
+    .genesis-nav-menu > .menu-item > a
+    {
+        padding-right: .20em;
+        padding-left: .3em;
+
+        text-transform: uppercase;
+
+        color: initial #000 !important;
+    }
+}
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 1024px)
+{
+    /* line 125, sass/partials/_footer-widgets.scss */
+
+    .genesis-nav-menu a
+    {
+        color: #000 !important;
+    }
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)
 {
-    /* line 243, sass/partials/_media-queries.scss */
+    /* line 275, sass/partials/_media-queries.scss */
 
     .top-bar
     {
@@ -4461,7 +4633,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         float: right;
 
         width: 100%;
-        margin-top: -15em;
+        margin-top: 0;
         margin-right: -10em;
         padding-top: 15px;
         padding-bottom: 10px;
@@ -4472,14 +4644,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 258, sass/partials/_media-queries.scss */
+    /* line 290, sass/partials/_media-queries.scss */
 
     .top-bar-right
     {
         width: 100%;
     }
 
-    /* line 262, sass/partials/_media-queries.scss */
+    /* line 294, sass/partials/_media-queries.scss */
 
     .site-title
     {
@@ -4492,7 +4664,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-transform: none;
     }
 
-    /* line 270, sass/partials/_media-queries.scss */
+    /* line 302, sass/partials/_media-queries.scss */
 
     .top-bar-right
     {
@@ -4503,14 +4675,14 @@ body .theme-simple #mailmunch-optin-form input.submit
 
     /*----NEW INNER WRAP-----*/
 
-    /* line 278, sass/partials/_media-queries.scss */
+    /* line 310, sass/partials/_media-queries.scss */
 
     div.new-inner-wrap
     {
         margin: auto 0;
     }
 
-    /* line 282, sass/partials/_media-queries.scss */
+    /* line 314, sass/partials/_media-queries.scss */
 
     .vp-style-staff-portfolio.viba-portfolio-wrapper
     {
@@ -4518,7 +4690,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 0;
     }
 
-    /* line 287, sass/partials/_media-queries.scss */
+    /* line 319, sass/partials/_media-queries.scss */
 
     .viba-portfolio-single-item
     {
@@ -4528,7 +4700,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 100% !important;
     }
 
-    /* line 293, sass/partials/_media-queries.scss */
+    /* line 325, sass/partials/_media-queries.scss */
 
     .about-text
     {
@@ -4537,42 +4709,42 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 1em 1em;
     }
 
-    /* line 299, sass/partials/_media-queries.scss */
+    /* line 331, sass/partials/_media-queries.scss */
 
     .featured-circles .widget
     {
         padding: 5px 5px;
     }
 
-    /* line 303, sass/partials/_media-queries.scss */
+    /* line 335, sass/partials/_media-queries.scss */
 
     .featured-circles
     {
         border: none;
     }
 
-    /* line 307, sass/partials/_media-queries.scss */
+    /* line 339, sass/partials/_media-queries.scss */
 
     .footer-widgets
     {
         border: none;
     }
 
-    /* line 311, sass/partials/_media-queries.scss */
+    /* line 343, sass/partials/_media-queries.scss */
 
     .site-container
     {
         overflow: hidden;
     }
 
-    /* line 315, sass/partials/_media-queries.scss */
+    /* line 347, sass/partials/_media-queries.scss */
 
     .footer-widgets
     {
         border: none;
     }
 
-    /* line 319, sass/partials/_media-queries.scss */
+    /* line 351, sass/partials/_media-queries.scss */
 
     .footer-widgets-1,
     .footer-widgets-2
@@ -4587,7 +4759,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center;
     }
 
-    /* line 328, sass/partials/_media-queries.scss */
+    /* line 360, sass/partials/_media-queries.scss */
 
     .footer-widgets-1
     {
@@ -4597,7 +4769,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 1px solid #ddd;
     }
 
-    /* line 334, sass/partials/_media-queries.scss */
+    /* line 366, sass/partials/_media-queries.scss */
 
     .footer-widgets-2
     {
@@ -4609,7 +4781,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-left: 0;
     }
 
-    /* line 341, sass/partials/_media-queries.scss */
+    /* line 373, sass/partials/_media-queries.scss */
 
     .footer-widgets-1 .widgettitle,
     .footer-widgets-2 .widgettitle,
@@ -4620,28 +4792,28 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center !important;
     }
 
-    /* line 346, sass/partials/_media-queries.scss */
+    /* line 378, sass/partials/_media-queries.scss */
 
     .site-footer p
     {
         padding: 0 20px;
     }
 
-    /* line 350, sass/partials/_media-queries.scss */
+    /* line 382, sass/partials/_media-queries.scss */
 
     .footer-widgets .widget_nav_menu
     {
         float: none;
     }
 
-    /* line 354, sass/partials/_media-queries.scss */
+    /* line 386, sass/partials/_media-queries.scss */
 
     .footer-widgets p
     {
         line-height: 28px;
     }
 
-    /* line 358, sass/partials/_media-queries.scss */
+    /* line 390, sass/partials/_media-queries.scss */
 
     .button-blue
     {
@@ -4655,14 +4827,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         box-shadow: 0 2px 16px 5px rgba(0, 0, 0, .35) !important;
     }
 
-    /* line 368, sass/partials/_media-queries.scss */
+    /* line 400, sass/partials/_media-queries.scss */
 
     #text-12 > div > div > h5
     {
         margin-top: 1em;
     }
 
-    /* line 374, sass/partials/_media-queries.scss */
+    /* line 406, sass/partials/_media-queries.scss */
 
     .featured-circles
     {
@@ -4675,14 +4847,14 @@ body .theme-simple #mailmunch-optin-form input.submit
 
     /*---HOMEPAGE APPOINT CALL-----*/
 
-    /* line 381, sass/partials/_media-queries.scss */
+    /* line 413, sass/partials/_media-queries.scss */
 
     #text-8 > div > div
     {
         margin-top: 1em;
     }
 
-    /* line 385, sass/partials/_media-queries.scss */
+    /* line 417, sass/partials/_media-queries.scss */
 
     #text-8
     {
@@ -4691,11 +4863,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background: none;
     }
 
-    /*-.above-post-hero {
-      margin-bottom: -4.7em;
-  }-*/
+    /* line 422, sass/partials/_media-queries.scss */
 
-    /* line 394, sass/partials/_media-queries.scss */
+    .above-post-hero
+    {
+        margin-top: 1em;
+    }
+
+    /* line 426, sass/partials/_media-queries.scss */
 
     .heading-top
     {
@@ -4707,14 +4882,189 @@ body .theme-simple #mailmunch-optin-form input.submit
 
     /*---HIDE TESTIMONIAL SLIDERS ON IPHONE-----*/
 
-    /* line 401, sass/partials/_media-queries.scss */
+    /* line 433, sass/partials/_media-queries.scss */
 
     div.hide-slide
     {
         display: none !important;
     }
 
-    /* line 552, sass/partials/_mobile-navigation.scss */
+    /* line 437, sass/partials/_media-queries.scss */
+
+    .vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
+    {
+        padding: .5em 1em;
+    }
+
+    /* line 441, sass/partials/_media-queries.scss */
+
+    .vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
+    {
+        padding: .5em 1em;
+    }
+
+    /* line 445, sass/partials/_media-queries.scss */
+
+    #mc_embed_signup .button
+    {
+        padding: 20px 43px !important;
+    }
+
+    /*=======================================
+  -----MOBILE VERSIONS OF HERO IMAGES-----
+  ========================================*/
+
+    /* ABOUT */
+
+    /* line 455, sass/partials/_media-queries.scss */
+
+    .about-class .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/AboutBannerMobile.jpg);
+    }
+
+    /* SERVICES */
+
+    /* line 463, sass/partials/_media-queries.scss */
+
+    .services-page .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/ServicesBannerMobile.jpg);
+    }
+
+    /* PATIENT RESOURCES */
+
+    /* line 470, sass/partials/_media-queries.scss */
+
+    .patient-resources .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/PatientResourcesBannerMobile.jpg);
+    }
+
+    /* DOCTOR RESOURCES */
+
+    /* line 477, sass/partials/_media-queries.scss */
+
+    .doc-resources .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/DoctorResourcesBannerMobile.jpg);
+    }
+
+    /* BLOG */
+
+    /* line 484, sass/partials/_media-queries.scss */
+
+    .blog-page-class .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/BlogBannerMobile.jpg);
+    }
+
+    /* CONTACT */
+
+    /* line 492, sass/partials/_media-queries.scss */
+
+    .contact-page-class .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/ContactBannerMobile.jpg);
+    }
+
+    /* CONTACT REDIRECT */
+
+    /* line 499, sass/partials/_media-queries.scss */
+
+    .redirect-class .above-post-hero
+    {
+        height: 206px;
+
+        background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/ContactBannerMobile.jpg);
+    }
+
+    /* line 506, sass/partials/_media-queries.scss */
+
+    .top-bar-left .simple-social-icons ul li a
+    {
+        font-size: 13px !important;
+
+        padding: 4px !important;
+
+        color: #fff !important;
+        border: 1px solid #916928 !important;
+        border-radius: 40px;
+        background-color: #916928 !important;
+    }
+
+    /* line 515, sass/partials/_media-queries.scss */
+
+    .top-bar-left
+    {
+        display: block;
+        float: left;
+
+        margin: 18px auto 0 -3em !important;
+
+        text-align: left;
+    }
+
+    /* line 522, sass/partials/_media-queries.scss */
+
+    .top-bar-right
+    {
+        float: none !important;
+
+        text-align: left;
+    }
+
+    /* line 527, sass/partials/_media-queries.scss */
+
+    .site-header .wrap
+    {
+        padding: 5px 0 !important;
+    }
+
+    /* line 531, sass/partials/_media-queries.scss */
+
+    .top-bar-right
+    {
+        display: block;
+
+        margin: -10em auto 0 !important;
+    }
+
+    /* line 536, sass/partials/_media-queries.scss */
+
+    .top-bar .simple-social-icons
+    {
+        margin-bottom: -10px;
+        margin-left: -1.1em !important;
+    }
+
+    /* line 541, sass/partials/_media-queries.scss */
+
+    .mobile-gmap
+    {
+        display: block;
+    }
+
+    /* line 545, sass/partials/_media-queries.scss */
+
+    #wpgmza_map
+    {
+        display: none !important;
+    }
+
+    /* line 576, sass/partials/_mobile-navigation.scss */
 
     .nav-primary li a::after,
     .nav-secondary li a::after
@@ -4722,14 +5072,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '';
     }
 
-    /* line 557, sass/partials/_mobile-navigation.scss */
+    /* line 581, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle
     {
         border: 1px solid #ddd;
     }
 
-    /* line 561, sass/partials/_mobile-navigation.scss */
+    /* line 585, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle,
     .sub-menu-toggle
@@ -4747,14 +5097,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center;
     }
 
-    /* line 573, sass/partials/_mobile-navigation.scss */
+    /* line 597, sass/partials/_mobile-navigation.scss */
 
     button.menu-toggle
     {
         width: 100%;
     }
 
-    /* line 577, sass/partials/_mobile-navigation.scss */
+    /* line 601, sass/partials/_mobile-navigation.scss */
 
     button.menu-toggle,
     button.sub-menu-toggle
@@ -4763,7 +5113,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 583, sass/partials/_mobile-navigation.scss */
+    /* line 607, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle
     {
@@ -4774,21 +5124,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 4px;
     }
 
-    /* line 590, sass/partials/_mobile-navigation.scss */
+    /* line 614, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle:before
     {
         content: '\2261';
     }
 
-    /* line 594, sass/partials/_mobile-navigation.scss */
+    /* line 618, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle.activated:before
     {
         content: '\2191';
     }
 
-    /* line 598, sass/partials/_mobile-navigation.scss */
+    /* line 622, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle:before
     {
@@ -4797,7 +5147,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '+';
     }
 
-    /* line 603, sass/partials/_mobile-navigation.scss */
+    /* line 627, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle.activated:before
     {
@@ -4806,7 +5156,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '-';
     }
 
-    /* line 608, sass/partials/_mobile-navigation.scss */
+    /* line 632, sass/partials/_mobile-navigation.scss */
 
     nav
     {
@@ -4815,7 +5165,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         display: none;
     }
 
-    /* line 613, sass/partials/_mobile-navigation.scss */
+    /* line 637, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .menu-item
     {
@@ -4828,14 +5178,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff !important;
     }
 
-    /* line 620, sass/partials/_mobile-navigation.scss */
+    /* line 644, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .menu-item:hover
     {
         position: relative;
     }
 
-    /* line 624, sass/partials/_mobile-navigation.scss */
+    /* line 648, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu
     {
@@ -4849,7 +5199,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         opacity: 1;
     }
 
-    /* line 632, sass/partials/_mobile-navigation.scss */
+    /* line 656, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu a
     {
@@ -4860,14 +5210,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-left: 0;
     }
 
-    /* line 638, sass/partials/_mobile-navigation.scss */
+    /* line 662, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu
     {
         margin: 0;
     }
 
-    /* line 642, sass/partials/_mobile-navigation.scss */
+    /* line 666, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu a
     {
@@ -4876,7 +5226,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #f5f5f5;
     }
 
-    /* line 647, sass/partials/_mobile-navigation.scss */
+    /* line 671, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu .sub-menu a
     {
@@ -4885,7 +5235,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff;
     }
 
-    /* line 652, sass/partials/_mobile-navigation.scss */
+    /* line 676, sass/partials/_mobile-navigation.scss */
 
     .nav-primary a:hover,
     .nav-primary .current-menu-item > a
@@ -4893,14 +5243,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         color: #888 !important;
     }
 
-    /* line 657, sass/partials/_mobile-navigation.scss */
+    /* line 681, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu > .first > a
     {
         padding-left: 14px;
     }
 
-    /* line 661, sass/partials/_mobile-navigation.scss */
+    /* line 685, sass/partials/_mobile-navigation.scss */
 
     .nav-primary .current-menu-item > a
     {
@@ -4909,7 +5259,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 0 #fff solid;
     }
 
-    /* line 666, sass/partials/_mobile-navigation.scss */
+    /* line 690, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu a
     {
@@ -4927,14 +5277,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border: none;
     }
 
-    /* line 677, sass/partials/_mobile-navigation.scss */
+    /* line 701, sass/partials/_mobile-navigation.scss */
 
     #menu-primary
     {
         background-color: #fff !important;
     }
 
-    /* line 680, sass/partials/_mobile-navigation.scss */
+    /* line 704, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu > .menu-item > a
     {
@@ -4942,12 +5292,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 1.3em;
 
         text-transform: uppercase;
+
+        color: #555 !important;
     }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px)
 {
-    /* line 411, sass/partials/_media-queries.scss */
+    /* line 556, sass/partials/_media-queries.scss */
 
     .top-bar
     {
@@ -4958,7 +5310,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         float: right;
 
         width: 100%;
-        margin-top: -15em;
+        margin-top: 0;
         margin-right: -10em;
         padding-top: 15px;
         padding-bottom: 10px;
@@ -4969,14 +5321,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 426, sass/partials/_media-queries.scss */
+    /* line 572, sass/partials/_media-queries.scss */
 
     .top-bar-right
     {
         width: 100%;
     }
 
-    /* line 430, sass/partials/_media-queries.scss */
+    /* line 576, sass/partials/_media-queries.scss */
 
     .viba-portfolio-single-item
     {
@@ -4986,7 +5338,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 100% !important;
     }
 
-    /* line 436, sass/partials/_media-queries.scss */
+    /* line 582, sass/partials/_media-queries.scss */
 
     .vp-style-staff-portfolio.viba-portfolio-wrapper
     {
@@ -4994,7 +5346,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 0;
     }
 
-    /* line 441, sass/partials/_media-queries.scss */
+    /* line 587, sass/partials/_media-queries.scss */
 
     .site-title
     {
@@ -5007,21 +5359,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-transform: none;
     }
 
-    /* line 449, sass/partials/_media-queries.scss */
+    /* line 595, sass/partials/_media-queries.scss */
 
     .footer-widgets p
     {
         line-height: 28px;
     }
 
-    /* line 453, sass/partials/_media-queries.scss */
+    /* line 599, sass/partials/_media-queries.scss */
 
     #text-12 > div > div > h5
     {
         margin-top: 1em;
     }
 
-    /* line 459, sass/partials/_media-queries.scss */
+    /* line 605, sass/partials/_media-queries.scss */
 
     .featured-circles
     {
@@ -5032,14 +5384,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 1px solid #ddd;
     }
 
-    /* line 465, sass/partials/_media-queries.scss */
+    /* line 611, sass/partials/_media-queries.scss */
 
     #text-8 > div > div
     {
         margin-top: 1em;
     }
 
-    /* line 469, sass/partials/_media-queries.scss */
+    /* line 615, sass/partials/_media-queries.scss */
 
     #text-8
     {
@@ -5048,11 +5400,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background: none;
     }
 
-    /*-.above-post-hero {
-      margin-bottom: -4.7em;
-  }-*/
-
-    /* line 478, sass/partials/_media-queries.scss */
+    /* line 622, sass/partials/_media-queries.scss */
 
     .heading-top
     {
@@ -5062,7 +5410,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-top: 2px #005486 solid;
     }
 
-    /* line 483, sass/partials/_media-queries.scss */
+    /* line 627, sass/partials/_media-queries.scss */
 
     .doc-resources .heading-top
     {
@@ -5072,21 +5420,72 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-top: 2px #005486 solid;
     }
 
-    /* line 416, sass/partials/_mobile-navigation.scss */
+    /* line 633, sass/partials/_media-queries.scss */
+
+    .vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
+    {
+        padding: .5em 1em;
+    }
+
+    /* line 637, sass/partials/_media-queries.scss */
+
+    .vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
+    {
+        padding: .5em 1em;
+    }
+
+    /* line 641, sass/partials/_media-queries.scss */
+
+    #mc_embed_signup .button
+    {
+        padding: 20px 66px !important;
+    }
+
+    /* line 645, sass/partials/_media-queries.scss */
+
+    .above-post-hero
+    {
+        margin-top: 1em;
+    }
+
+    /* line 649, sass/partials/_media-queries.scss */
+
+    .top-bar-left .simple-social-icons ul li a,
+    .simple-social-icons ul li a:hover
+    {
+        font-size: 15px !important;
+
+        padding: 6px !important;
+
+        color: #fff !important;
+        border: 1px #916928 solid !important;
+        border-radius: 40px;
+        background-color: #916928 !important;
+    }
+
+    /* line 658, sass/partials/_media-queries.scss */
+
+    .top-bar .simple-social-icons
+    {
+        margin-bottom: -10px;
+        margin-left: 0 !important;
+    }
+
+    /* line 439, sass/partials/_mobile-navigation.scss */
 
     .nav-secondary li a::after
     {
         content: '';
     }
 
-    /* line 420, sass/partials/_mobile-navigation.scss */
+    /* line 443, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle
     {
         border: 1px solid #ddd;
     }
 
-    /* line 424, sass/partials/_mobile-navigation.scss */
+    /* line 447, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle,
     .sub-menu-toggle
@@ -5104,14 +5503,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center;
     }
 
-    /* line 436, sass/partials/_mobile-navigation.scss */
+    /* line 459, sass/partials/_mobile-navigation.scss */
 
     button.menu-toggle
     {
         width: 100%;
     }
 
-    /* line 440, sass/partials/_mobile-navigation.scss */
+    /* line 463, sass/partials/_mobile-navigation.scss */
 
     button.menu-toggle,
     button.sub-menu-toggle
@@ -5120,7 +5519,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 446, sass/partials/_mobile-navigation.scss */
+    /* line 469, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle
     {
@@ -5131,21 +5530,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 4px;
     }
 
-    /* line 453, sass/partials/_mobile-navigation.scss */
+    /* line 476, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle:before
     {
         content: '\2261';
     }
 
-    /* line 457, sass/partials/_mobile-navigation.scss */
+    /* line 480, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle.activated:before
     {
         content: '\2191';
     }
 
-    /* line 461, sass/partials/_mobile-navigation.scss */
+    /* line 484, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle:before
     {
@@ -5154,7 +5553,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '+';
     }
 
-    /* line 466, sass/partials/_mobile-navigation.scss */
+    /* line 489, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle.activated:before
     {
@@ -5163,7 +5562,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '-';
     }
 
-    /* line 471, sass/partials/_mobile-navigation.scss */
+    /* line 494, sass/partials/_mobile-navigation.scss */
 
     nav
     {
@@ -5172,7 +5571,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         display: none;
     }
 
-    /* line 476, sass/partials/_mobile-navigation.scss */
+    /* line 499, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .menu-item
     {
@@ -5185,14 +5584,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff !important;
     }
 
-    /* line 483, sass/partials/_mobile-navigation.scss */
+    /* line 506, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .menu-item:hover
     {
         position: relative;
     }
 
-    /* line 487, sass/partials/_mobile-navigation.scss */
+    /* line 510, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu
     {
@@ -5206,7 +5605,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         opacity: 1;
     }
 
-    /* line 495, sass/partials/_mobile-navigation.scss */
+    /* line 518, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu a
     {
@@ -5217,14 +5616,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-left: 0;
     }
 
-    /* line 501, sass/partials/_mobile-navigation.scss */
+    /* line 524, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu
     {
         margin: 0;
     }
 
-    /* line 505, sass/partials/_mobile-navigation.scss */
+    /* line 528, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu a
     {
@@ -5233,7 +5632,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #f5f5f5;
     }
 
-    /* line 510, sass/partials/_mobile-navigation.scss */
+    /* line 533, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu .sub-menu a
     {
@@ -5242,7 +5641,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff;
     }
 
-    /* line 515, sass/partials/_mobile-navigation.scss */
+    /* line 538, sass/partials/_mobile-navigation.scss */
 
     .nav-primary a:hover,
     .nav-primary .current-menu-item > a
@@ -5250,14 +5649,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         color: #888 !important;
     }
 
-    /* line 520, sass/partials/_mobile-navigation.scss */
+    /* line 543, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu > .first > a
     {
         padding-left: 14px;
     }
 
-    /* line 524, sass/partials/_mobile-navigation.scss */
+    /* line 547, sass/partials/_mobile-navigation.scss */
 
     .nav-primary .current-menu-item > a
     {
@@ -5266,7 +5665,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 0 #fff solid;
     }
 
-    /* line 529, sass/partials/_mobile-navigation.scss */
+    /* line 552, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu a
     {
@@ -5284,14 +5683,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border: none;
     }
 
-    /* line 540, sass/partials/_mobile-navigation.scss */
+    /* line 563, sass/partials/_mobile-navigation.scss */
 
     #menu-primary
     {
         background-color: #fff !important;
     }
 
-    /* line 543, sass/partials/_mobile-navigation.scss */
+    /* line 566, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu > .menu-item > a
     {
@@ -5299,12 +5698,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 1.3em;
 
         text-transform: uppercase;
+
+        color: #555 !important;
     }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px)
 {
-    /* line 493, sass/partials/_media-queries.scss */
+    /* line 666, sass/partials/_media-queries.scss */
 
     .top-bar
     {
@@ -5315,7 +5716,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         float: right;
 
         width: 100%;
-        margin-top: -15em;
+        margin-top: 0;
         margin-right: -10em;
         padding-top: 15px;
         padding-bottom: 10px;
@@ -5326,7 +5727,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 508, sass/partials/_media-queries.scss */
+    /* line 681, sass/partials/_media-queries.scss */
 
     .viba-portfolio-single-item
     {
@@ -5336,14 +5737,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 100% !important;
     }
 
-    /* line 514, sass/partials/_media-queries.scss */
+    /* line 687, sass/partials/_media-queries.scss */
 
     .top-bar-right
     {
         width: 100%;
     }
 
-    /* line 518, sass/partials/_media-queries.scss */
+    /* line 691, sass/partials/_media-queries.scss */
 
     .site-title
     {
@@ -5356,21 +5757,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-transform: none;
     }
 
-    /* line 526, sass/partials/_media-queries.scss */
+    /* line 699, sass/partials/_media-queries.scss */
 
     .footer-widgets p
     {
         line-height: 28px;
     }
 
-    /* line 530, sass/partials/_media-queries.scss */
+    /* line 703, sass/partials/_media-queries.scss */
 
     #text-12 > div > div > h5
     {
         margin-top: 1em;
     }
 
-    /* line 536, sass/partials/_media-queries.scss */
+    /* line 709, sass/partials/_media-queries.scss */
 
     .featured-circles
     {
@@ -5381,14 +5782,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 1px solid #ddd;
     }
 
-    /* line 542, sass/partials/_media-queries.scss */
+    /* line 715, sass/partials/_media-queries.scss */
 
     #text-8 > div > div
     {
         margin-top: 1em;
     }
 
-    /* line 546, sass/partials/_media-queries.scss */
+    /* line 719, sass/partials/_media-queries.scss */
 
     #text-8
     {
@@ -5397,7 +5798,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background: none;
     }
 
-    /* line 551, sass/partials/_media-queries.scss */
+    /* line 724, sass/partials/_media-queries.scss */
 
     .vp-style-staff-portfolio.viba-portfolio-wrapper
     {
@@ -5405,7 +5806,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 0;
     }
 
-    /* line 556, sass/partials/_media-queries.scss */
+    /* line 729, sass/partials/_media-queries.scss */
 
     .heading-top
     {
@@ -5415,16 +5816,23 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-top: 2px #005486 solid;
     }
 
+    /* line 735, sass/partials/_media-queries.scss */
+
+    #mc_embed_signup .button
+    {
+        padding: 20px 83px !important;
+    }
+
     /*---HIDE TESTIMONIAL SLIDERS ON IPHONE-----*/
 
-    /* line 564, sass/partials/_media-queries.scss */
+    /* line 741, sass/partials/_media-queries.scss */
 
     div.hide-slide
     {
         display: none !important;
     }
 
-    /* line 568, sass/partials/_media-queries.scss */
+    /* line 745, sass/partials/_media-queries.scss */
 
     .doc-resources .heading-top
     {
@@ -5434,7 +5842,51 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-top: 2px #005486 solid;
     }
 
-    /* line 278, sass/partials/_mobile-navigation.scss */
+    /* line 751, sass/partials/_media-queries.scss */
+
+    .vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
+    {
+        padding: .5em 1em;
+    }
+
+    /* line 755, sass/partials/_media-queries.scss */
+
+    .vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item
+    {
+        padding: .5em 1em;
+    }
+
+    /* line 759, sass/partials/_media-queries.scss */
+
+    .above-post-hero
+    {
+        margin-top: 1em;
+    }
+
+    /* line 763, sass/partials/_media-queries.scss */
+
+    .top-bar-left .simple-social-icons ul li a,
+    .simple-social-icons ul li a:hover
+    {
+        font-size: 15px !important;
+
+        padding: 6px !important;
+
+        color: #fff !important;
+        border: 1px #916928 solid !important;
+        border-radius: 40px;
+        background-color: #916928 !important;
+    }
+
+    /* line 772, sass/partials/_media-queries.scss */
+
+    .top-bar .simple-social-icons
+    {
+        margin-bottom: -10px;
+        margin-left: 1.6em !important;
+    }
+
+    /* line 300, sass/partials/_mobile-navigation.scss */
 
     .nav-primary li a::after,
     .nav-secondary li a::after
@@ -5442,14 +5894,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '';
     }
 
-    /* line 283, sass/partials/_mobile-navigation.scss */
+    /* line 305, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle
     {
         border: 1px solid #ddd;
     }
 
-    /* line 287, sass/partials/_mobile-navigation.scss */
+    /* line 309, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle,
     .sub-menu-toggle
@@ -5467,14 +5919,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center;
     }
 
-    /* line 299, sass/partials/_mobile-navigation.scss */
+    /* line 321, sass/partials/_mobile-navigation.scss */
 
     button.menu-toggle
     {
         width: 100%;
     }
 
-    /* line 303, sass/partials/_mobile-navigation.scss */
+    /* line 325, sass/partials/_mobile-navigation.scss */
 
     button.menu-toggle,
     button.sub-menu-toggle
@@ -5483,7 +5935,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 309, sass/partials/_mobile-navigation.scss */
+    /* line 331, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle
     {
@@ -5494,21 +5946,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 4px;
     }
 
-    /* line 316, sass/partials/_mobile-navigation.scss */
+    /* line 338, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle:before
     {
         content: '\2261';
     }
 
-    /* line 320, sass/partials/_mobile-navigation.scss */
+    /* line 342, sass/partials/_mobile-navigation.scss */
 
     .menu-toggle.activated:before
     {
         content: '\2191';
     }
 
-    /* line 324, sass/partials/_mobile-navigation.scss */
+    /* line 346, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle:before
     {
@@ -5517,7 +5969,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '+';
     }
 
-    /* line 329, sass/partials/_mobile-navigation.scss */
+    /* line 351, sass/partials/_mobile-navigation.scss */
 
     .sub-menu-toggle.activated:before
     {
@@ -5526,7 +5978,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '-';
     }
 
-    /* line 334, sass/partials/_mobile-navigation.scss */
+    /* line 356, sass/partials/_mobile-navigation.scss */
 
     nav
     {
@@ -5535,7 +5987,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         display: none;
     }
 
-    /* line 339, sass/partials/_mobile-navigation.scss */
+    /* line 361, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .menu-item
     {
@@ -5548,14 +6000,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff !important;
     }
 
-    /* line 346, sass/partials/_mobile-navigation.scss */
+    /* line 368, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .menu-item:hover
     {
         position: relative;
     }
 
-    /* line 350, sass/partials/_mobile-navigation.scss */
+    /* line 372, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu
     {
@@ -5569,7 +6021,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         opacity: 1;
     }
 
-    /* line 358, sass/partials/_mobile-navigation.scss */
+    /* line 380, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu a
     {
@@ -5580,14 +6032,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-left: 0;
     }
 
-    /* line 364, sass/partials/_mobile-navigation.scss */
+    /* line 386, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu
     {
         margin: 0;
     }
 
-    /* line 368, sass/partials/_mobile-navigation.scss */
+    /* line 390, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu a
     {
@@ -5596,7 +6048,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #f5f5f5;
     }
 
-    /* line 373, sass/partials/_mobile-navigation.scss */
+    /* line 395, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu .sub-menu a
     {
@@ -5605,7 +6057,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff;
     }
 
-    /* line 378, sass/partials/_mobile-navigation.scss */
+    /* line 400, sass/partials/_mobile-navigation.scss */
 
     .nav-primary a:hover,
     .nav-primary .current-menu-item > a
@@ -5613,14 +6065,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         color: #888 !important;
     }
 
-    /* line 383, sass/partials/_mobile-navigation.scss */
+    /* line 405, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu > .first > a
     {
         padding-left: 14px;
     }
 
-    /* line 387, sass/partials/_mobile-navigation.scss */
+    /* line 409, sass/partials/_mobile-navigation.scss */
 
     .nav-primary .current-menu-item > a
     {
@@ -5629,7 +6081,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 0 #fff solid;
     }
 
-    /* line 392, sass/partials/_mobile-navigation.scss */
+    /* line 414, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu a
     {
@@ -5647,14 +6099,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border: none;
     }
 
-    /* line 403, sass/partials/_mobile-navigation.scss */
+    /* line 425, sass/partials/_mobile-navigation.scss */
 
     #menu-primary
     {
         background-color: #fff !important;
     }
 
-    /* line 407, sass/partials/_mobile-navigation.scss */
+    /* line 429, sass/partials/_mobile-navigation.scss */
 
     .genesis-nav-menu > .menu-item > a
     {
@@ -5662,12 +6114,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 1.3em;
 
         text-transform: uppercase;
+
+        color: #555 !important;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
-    /* line 579, sass/partials/_media-queries.scss */
+    /* line 781, sass/partials/_media-queries.scss */
 
     .vp-style-staff-portfolio.viba-portfolio-wrapper
     {
@@ -5675,7 +6129,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 0;
     }
 
-    /* line 584, sass/partials/_media-queries.scss */
+    /* line 786, sass/partials/_media-queries.scss */
 
     .top-bar
     {
@@ -5701,7 +6155,7 @@ body .theme-simple #mailmunch-optin-form input.submit
       margin-bottom: -4.7em;
   }-*/
 
-    /* line 603, sass/partials/_media-queries.scss */
+    /* line 805, sass/partials/_media-queries.scss */
 
     .nav-primary li a::after,
     .nav-secondary li a::after
@@ -5709,14 +6163,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '';
     }
 
-    /* line 608, sass/partials/_media-queries.scss */
+    /* line 810, sass/partials/_media-queries.scss */
 
     .menu-toggle
     {
         border: 1px solid #ddd;
     }
 
-    /* line 612, sass/partials/_media-queries.scss */
+    /* line 814, sass/partials/_media-queries.scss */
 
     .menu-toggle,
     .sub-menu-toggle
@@ -5734,14 +6188,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center;
     }
 
-    /* line 623, sass/partials/_media-queries.scss */
+    /* line 825, sass/partials/_media-queries.scss */
 
     button.menu-toggle
     {
         width: 100%;
     }
 
-    /* line 627, sass/partials/_media-queries.scss */
+    /* line 829, sass/partials/_media-queries.scss */
 
     button.menu-toggle,
     button.sub-menu-toggle
@@ -5750,7 +6204,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: transparent;
     }
 
-    /* line 633, sass/partials/_media-queries.scss */
+    /* line 835, sass/partials/_media-queries.scss */
 
     .sub-menu-toggle
     {
@@ -5761,21 +6215,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 4px;
     }
 
-    /* line 640, sass/partials/_media-queries.scss */
+    /* line 842, sass/partials/_media-queries.scss */
 
     .menu-toggle:before
     {
         content: '\2261';
     }
 
-    /* line 644, sass/partials/_media-queries.scss */
+    /* line 846, sass/partials/_media-queries.scss */
 
     .menu-toggle.activated:before
     {
         content: '\2191';
     }
 
-    /* line 648, sass/partials/_media-queries.scss */
+    /* line 850, sass/partials/_media-queries.scss */
 
     .sub-menu-toggle:before
     {
@@ -5784,7 +6238,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '+';
     }
 
-    /* line 653, sass/partials/_media-queries.scss */
+    /* line 855, sass/partials/_media-queries.scss */
 
     .sub-menu-toggle.activated:before
     {
@@ -5793,7 +6247,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         content: '-';
     }
 
-    /* line 658, sass/partials/_media-queries.scss */
+    /* line 860, sass/partials/_media-queries.scss */
 
     nav
     {
@@ -5802,7 +6256,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         display: none;
     }
 
-    /* line 663, sass/partials/_media-queries.scss */
+    /* line 865, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .menu-item
     {
@@ -5815,14 +6269,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff !important;
     }
 
-    /* line 670, sass/partials/_media-queries.scss */
+    /* line 872, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .menu-item:hover
     {
         position: relative;
     }
 
-    /* line 674, sass/partials/_media-queries.scss */
+    /* line 876, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .sub-menu
     {
@@ -5836,7 +6290,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         opacity: 1;
     }
 
-    /* line 682, sass/partials/_media-queries.scss */
+    /* line 884, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .sub-menu a
     {
@@ -5847,14 +6301,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-left: 0;
     }
 
-    /* line 688, sass/partials/_media-queries.scss */
+    /* line 890, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu
     {
         margin: 0;
     }
 
-    /* line 692, sass/partials/_media-queries.scss */
+    /* line 894, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu a
     {
@@ -5863,7 +6317,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #f5f5f5;
     }
 
-    /* line 697, sass/partials/_media-queries.scss */
+    /* line 899, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu .sub-menu .sub-menu .sub-menu a
     {
@@ -5872,7 +6326,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         background-color: #fff;
     }
 
-    /* line 702, sass/partials/_media-queries.scss */
+    /* line 904, sass/partials/_media-queries.scss */
 
     .nav-primary a:hover,
     .nav-primary .current-menu-item > a
@@ -5880,14 +6334,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         color: #888 !important;
     }
 
-    /* line 707, sass/partials/_media-queries.scss */
+    /* line 909, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu > .first > a
     {
         padding-left: 14px;
     }
 
-    /* line 711, sass/partials/_media-queries.scss */
+    /* line 913, sass/partials/_media-queries.scss */
 
     .nav-primary .current-menu-item > a
     {
@@ -5896,7 +6350,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         border-bottom: 0 #fff solid;
     }
 
-    /* line 716, sass/partials/_media-queries.scss */
+    /* line 918, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu a
     {
@@ -5914,14 +6368,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         border: none;
     }
 
-    /* line 727, sass/partials/_media-queries.scss */
+    /* line 929, sass/partials/_media-queries.scss */
 
     #menu-primary
     {
         background-color: #fff !important;
     }
 
-    /* line 731, sass/partials/_media-queries.scss */
+    /* line 933, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu > .menu-item > a
     {
@@ -5929,29 +6383,106 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 1.3em;
 
         text-transform: uppercase;
+
+        color: #222 !important;
     }
 
-    /* line 737, sass/partials/_media-queries.scss */
+    /* line 940, sass/partials/_media-queries.scss */
 
     .homepage-inner
     {
         padding-top: 12px;
     }
+
+    /* line 944, sass/partials/_media-queries.scss */
+
+    #mc_embed_signup .mc-field-group input
+    {
+        display: block;
+
+        width: 103% !important;
+        padding: 8px 0;
+
+        text-indent: 2%;
+    }
+
+    /* line 951, sass/partials/_media-queries.scss */
+
+    #mc_embed_signup .button
+    {
+        line-height: 32px;
+
+        height: 32px;
+        margin: 0 5px 10px 0;
+        padding: 3em 15.56em !important;
+    }
+
+    /* line 958, sass/partials/_media-queries.scss */
+
+    .top-bar-left
+    {
+        display: block;
+        float: left;
+
+        margin: 24px auto 0 -6em !important;
+    }
+
+    /* line 278, sass/partials/_mobile-navigation.scss */
+
+    .genesis-nav-menu > .menu-item > a
+    {
+        padding-right: .2em;
+        padding-left: 1.3em;
+
+        text-transform: uppercase;
+
+        color: #222 !important;
+    }
+
+    /* line 285, sass/partials/_mobile-navigation.scss */
+
+    .genesis-nav-menu
+    {
+        font-family: 'Open Sans', serif;
+        font-weight: 400;
+        line-height: 1.5;
+
+        clear: both;
+
+        width: 100%;
+
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #222 !important;
+    }
 }
 
 @media only screen and (min-width: 769px)
 {
-    /* line 22, sass/partials/_mobile-navigation.scss */
+    /* line 145, sass/partials/_media-queries.scss */
 
-    nav
+    .top-bar .simple-social-icons
     {
-        display: block !important;
+        margin-bottom: -10px;
+        padding-left: 17%;
+    }
+}
+
+@media only screen and (min-width: 1800px)
+{
+    /* line 3, sass/partials/_media-queries.scss */
+
+    .site-header
+    {
+        margin-bottom: 6em;
     }
 }
 
 @media only screen and (max-width: 1139px)
 {
-    /* line 3, sass/partials/_media-queries.scss */
+    /* line 13, sass/partials/_media-queries.scss */
 
     .site-inner,
     .wrap
@@ -5959,7 +6490,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         max-width: 960px;
     }
 
-    /* line 8, sass/partials/_media-queries.scss */
+    /* line 18, sass/partials/_media-queries.scss */
 
     .content-sidebar-sidebar .content-sidebar-wrap,
     .sidebar-content-sidebar .content-sidebar-wrap,
@@ -5968,7 +6499,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 740px;
     }
 
-    /* line 14, sass/partials/_media-queries.scss */
+    /* line 24, sass/partials/_media-queries.scss */
 
     .content,
     .site-header .widget-area
@@ -5976,7 +6507,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 620px;
     }
 
-    /* line 19, sass/partials/_media-queries.scss */
+    /* line 29, sass/partials/_media-queries.scss */
 
     .sidebar-content-sidebar .content,
     .sidebar-sidebar-content .content,
@@ -5985,7 +6516,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 400px;
     }
 
-    /* line 25, sass/partials/_media-queries.scss */
+    /* line 35, sass/partials/_media-queries.scss */
 
     .sidebar-primary,
     .title-area
@@ -5996,14 +6527,14 @@ body .theme-simple #mailmunch-optin-form input.submit
 
 @media only screen and (max-width: 1023px)
 {
-    /* line 36, sass/partials/_media-queries.scss */
+    /* line 46, sass/partials/_media-queries.scss */
 
     body
     {
         background-color: #fff;
     }
 
-    /* line 40, sass/partials/_media-queries.scss */
+    /* line 50, sass/partials/_media-queries.scss */
 
     .content,
     .content-sidebar-sidebar .content,
@@ -6022,7 +6553,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 100%;
     }
 
-    /* line 56, sass/partials/_media-queries.scss */
+    /* line 66, sass/partials/_media-queries.scss */
 
     .top-bar-left,
     .top-bar-right
@@ -6032,21 +6563,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         margin: 10px auto;
     }
 
-    /* line 62, sass/partials/_media-queries.scss */
+    /* line 72, sass/partials/_media-queries.scss */
 
     .site-header .wrap
     {
         padding: 20px 0;
     }
 
-    /* line 66, sass/partials/_media-queries.scss */
+    /* line 76, sass/partials/_media-queries.scss */
 
     .header-image .site-header .wrap
     {
         background-position: center top;
     }
 
-    /* line 70, sass/partials/_media-queries.scss */
+    /* line 80, sass/partials/_media-queries.scss */
 
     .site-inner
     {
@@ -6054,7 +6585,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 5%;
     }
 
-    /* line 75, sass/partials/_media-queries.scss */
+    /* line 85, sass/partials/_media-queries.scss */
 
     .archive-description,
     .author-box,
@@ -6068,14 +6599,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 0;
     }
 
-    /* line 86, sass/partials/_media-queries.scss */
+    /* line 96, sass/partials/_media-queries.scss */
 
     .comment-respond
     {
         padding: 10px;
     }
 
-    /* line 90, sass/partials/_media-queries.scss */
+    /* line 100, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu li,
     .site-header ul.genesis-nav-menu,
@@ -6084,7 +6615,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         float: none;
     }
 
-    /* line 96, sass/partials/_media-queries.scss */
+    /* line 106, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu,
     .site-description,
@@ -6095,21 +6626,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         text-align: center;
     }
 
-    /* line 104, sass/partials/_media-queries.scss */
+    /* line 114, sass/partials/_media-queries.scss */
 
     .site-header .search-form
     {
         margin: 16px auto;
     }
 
-    /* line 108, sass/partials/_media-queries.scss */
+    /* line 118, sass/partials/_media-queries.scss */
 
     .genesis-nav-menu li.right
     {
         display: none;
     }
 
-    /* line 112, sass/partials/_media-queries.scss */
+    /* line 122, sass/partials/_media-queries.scss */
 
     .entry-footer .entry-meta
     {
@@ -6117,21 +6648,21 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-top: 12px;
     }
 
-    /* line 117, sass/partials/_media-queries.scss */
+    /* line 127, sass/partials/_media-queries.scss */
 
     .sidebar .widget.enews-widget
     {
         padding: 40px;
     }
 
-    /* line 121, sass/partials/_media-queries.scss */
+    /* line 131, sass/partials/_media-queries.scss */
 
     .site-footer
     {
         padding: 24px 0;
     }
 
-    /* line 125, sass/partials/_media-queries.scss */
+    /* line 135, sass/partials/_media-queries.scss */
 
     .alignleft .avatar,
     .alignright .avatar
@@ -6333,7 +6864,7 @@ body .theme-simple #mailmunch-optin-form input.submit
 
 @media only screen and (max-width: 769px)
 {
-    /* line 135, sass/partials/_media-queries.scss */
+    /* line 154, sass/partials/_media-queries.scss */
 
     .about-text
     {
@@ -6342,7 +6873,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 1em 1em;
     }
 
-    /* line 141, sass/partials/_media-queries.scss */
+    /* line 160, sass/partials/_media-queries.scss */
 
     .viba-portfolio-single-item
     {
@@ -6352,14 +6883,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 100% !important;
     }
 
-    /* line 147, sass/partials/_media-queries.scss */
+    /* line 166, sass/partials/_media-queries.scss */
 
     .top-bar
     {
         padding: 10px 20px 0 20px;
     }
 
-    /* line 151, sass/partials/_media-queries.scss */
+    /* line 170, sass/partials/_media-queries.scss */
 
     .featured-circles .widget
     {
@@ -6368,14 +6899,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 0 0 10px 0 !important;
     }
 
-    /* line 157, sass/partials/_media-queries.scss */
+    /* line 176, sass/partials/_media-queries.scss */
 
     .featured-circles .featured-content .entry
     {
         padding: 0 !important;
     }
 
-    /* line 161, sass/partials/_media-queries.scss */
+    /* line 180, sass/partials/_media-queries.scss */
 
     .featured-circles .entry-title a,
     .featured-circles .widgettitle
@@ -6383,7 +6914,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         font-size: 14px;
     }
 
-    /* line 165, sass/partials/_media-queries.scss */
+    /* line 184, sass/partials/_media-queries.scss */
 
     .enews-widget input,
     .enews-widget input[type='submit']
@@ -6391,14 +6922,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         width: 100%;
     }
 
-    /* line 169, sass/partials/_media-queries.scss */
+    /* line 188, sass/partials/_media-queries.scss */
 
     .enews-widget input
     {
         margin-bottom: 7px;
     }
 
-    /* line 173, sass/partials/_media-queries.scss */
+    /* line 192, sass/partials/_media-queries.scss */
 
     .five-sixths,
     .four-sixths,
@@ -6416,14 +6947,14 @@ body .theme-simple #mailmunch-optin-form input.submit
         margin: 0;
     }
 
-    /* line 188, sass/partials/_media-queries.scss */
+    /* line 207, sass/partials/_media-queries.scss */
 
     .comment-respond
     {
         border: 0 solid #ddd;
     }
 
-    /* line 192, sass/partials/_media-queries.scss */
+    /* line 211, sass/partials/_media-queries.scss */
 
     .footer-widgets
     {
@@ -6431,7 +6962,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 20px;
     }
 
-    /* line 197, sass/partials/_media-queries.scss */
+    /* line 216, sass/partials/_media-queries.scss */
 
     .home-featured-area .widget
     {
@@ -6442,24 +6973,49 @@ body .theme-simple #mailmunch-optin-form input.submit
         margin-bottom: 0;
     }
 
-    /* line 204, sass/partials/_media-queries.scss */
+    /* line 223, sass/partials/_media-queries.scss */
 
     .home-featured-area .featured-content .entry
     {
         padding-bottom: 0;
     }
 
-    /* line 208, sass/partials/_media-queries.scss */
+    /* line 227, sass/partials/_media-queries.scss */
 
     .footer-widgets-2
     {
         border-left: 0;
     }
+
+    /* line 230, sass/partials/_media-queries.scss */
+
+    #menu-primary
+    {
+        background-color: #f5f5f5 !important;
+    }
+
+    /* line 234, sass/partials/_media-queries.scss */
+
+    .genesis-nav-menu a
+    {
+        font-size: 13px;
+
+        position: relative;
+
+        display: block;
+
+        margin-right: auto;
+        margin-left: auto;
+        padding: 18px 0;
+
+        color: #000 !important;
+        border: none;
+    }
 }
 
 @media only screen and (max-width: 520px)
 {
-    /* line 217, sass/partials/_media-queries.scss */
+    /* line 249, sass/partials/_media-queries.scss */
 
     .featured-circles .entry-title a,
     .featured-circles .widgettitle
@@ -6469,14 +7025,14 @@ body .theme-simple #mailmunch-optin-form input.submit
 
     /*----NEW INNER WRAP-----*/
 
-    /* line 222, sass/partials/_media-queries.scss */
+    /* line 254, sass/partials/_media-queries.scss */
 
     div.new-inner-wrap
     {
         margin: auto 0;
     }
 
-    /* line 226, sass/partials/_media-queries.scss */
+    /* line 258, sass/partials/_media-queries.scss */
 
     .about-text
     {
@@ -6485,7 +7041,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding: 1em 1em;
     }
 
-    /* line 232, sass/partials/_media-queries.scss */
+    /* line 264, sass/partials/_media-queries.scss */
 
     .viba-portfolio-single-item
     {
@@ -6716,5 +7272,7 @@ body .theme-simple #mailmunch-optin-form input.submit
         padding-left: 1.3em;
 
         text-transform: uppercase;
+
+        color: #222;
     }
 }

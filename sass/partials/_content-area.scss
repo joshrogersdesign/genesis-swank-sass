@@ -401,3 +401,10 @@ margin: auto 6em;
     margin-bottom: 0em;
     margin-left: 0;
 }
+
+/*--------FIX SERVICES PAGE BUTTON MARGINS--------*/
+
+.patient-resources a.button-blue {
+	margin: .5em 0;
+    display: inline-block;
+}

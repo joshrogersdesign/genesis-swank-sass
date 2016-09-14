@@ -107,3 +107,22 @@
 #text-10 .site-inner {
 	padding-top: 40px !important;
 }
+
+.footer-widgets .simple-social-icons ul li a {
+	background-color: #263645 !important;
+    border-color: #263645 !important;
+    color: #ffffff !important;
+	
+}
+
+.footer-widgets .simple-social-icons ul li a:hover {
+	background-color: #00375b !important;
+    border-color: #00375b !important;
+    color: #ffffff !important;
+}
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 1024px) {
+.genesis-nav-menu a {
+	color: #000 !important;
+}
+}

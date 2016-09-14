@@ -1,3 +1,13 @@
+@media only screen and (min-width: 1800px) {
+    
+    .site-header {
+    margin-bottom: 6em;
+	}
+
+
+}
+
+
 @media only screen and (max-width: 1139px) {
 
 	.site-inner,
@@ -129,8 +139,17 @@
 
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) {
 
+
+.top-bar .simple-social-icons {
+    margin-bottom: -10px;
+    padding-left: 17%;
+}
+}
+
+
+@media only screen and (max-width: 769px) {
 
 .about-text {
     width: 100%;
@@ -208,7 +227,20 @@
 	.footer-widgets-2 {
 		border-left: 0;
 	}
+#menu-primary {
+	background-color: #f5f5f5 !important;
+}
 
+.genesis-nav-menu a {
+    font-size: 13px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 18px 0;
+    border: none;
+    color: #000 !important;
+}
 }
 
 
@@ -246,7 +278,7 @@ margin: auto 0;
     line-height: 1;
     float: right;
     width: 100%;
-    margin-top: -15em;
+    margin-top: 0em;
     margin-right: -10em;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -387,9 +419,9 @@ margin: auto 0;
     background: none;
 }
 
-/*-.above-post-hero {
-    margin-bottom: -4.7em;
-}-*/
+.above-post-hero {
+    margin-top: 1em;
+}
 
 .heading-top {
     width: 100%;
@@ -402,8 +434,121 @@ div.hide-slide {
 display: none !important;	
 }
 
+.vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item {
+    padding: .5em 1em;
+}
+
+.vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item {
+    padding: .5em 1em;
+}
+
+#mc_embed_signup .button {
+    padding: 20px 43px !important;
+}
+
+/*=======================================
+-----MOBILE VERSIONS OF HERO IMAGES-----
+========================================*/
+
+/* ABOUT */
+
+.about-class .above-post-hero {
+    background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/AboutBannerMobile.jpg);
+    height: 206px;
+}
 
 
+/* SERVICES */
+
+.services-page .above-post-hero {
+	 background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/ServicesBannerMobile.jpg);
+    height: 206px;
+}
+
+/* PATIENT RESOURCES */
+
+.patient-resources .above-post-hero {
+	 background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/PatientResourcesBannerMobile.jpg);
+    height: 206px;
+}
+
+/* DOCTOR RESOURCES */
+
+.doc-resources .above-post-hero {
+	 background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/DoctorResourcesBannerMobile.jpg);
+    height: 206px;
+}
+
+/* BLOG */
+
+.blog-page-class .above-post-hero {
+	 background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/BlogBannerMobile.jpg);
+    height: 206px;
+}
+
+
+/* CONTACT */
+
+.contact-page-class .above-post-hero {
+	 background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/ContactBannerMobile.jpg);
+    height: 206px;
+}
+
+/* CONTACT REDIRECT */
+
+.redirect-class .above-post-hero {
+	 background-image: url(http://mtois.staging.wpengine.com/wp-content/uploads/2015/10/ContactBannerMobile.jpg);
+    height: 206px;
+
+}
+
+
+.top-bar-left .simple-social-icons ul li a {
+    font-size: 13px!important;
+    padding: 4px!important;
+    color: #fff!important;
+    border: 1px solid #916928!important;
+    border-radius: 40px;
+    background-color: #916928!important;
+}
+
+.top-bar-left  {
+    display: block;
+    margin: 18px auto 0px -3em !important;
+    float: left;
+    text-align: left;
+}
+
+.top-bar-right {
+    float: none !important;
+    text-align: left;
+}
+
+.site-header .wrap {
+    padding: 5px 0 !important;
+}
+
+.top-bar-right {
+    display: block;
+    margin: -10em auto 0px !important;
+}
+
+.top-bar .simple-social-icons {
+    margin-bottom: -10px;
+    margin-left: -1.1em !important;
+}
+
+.mobile-gmap {
+	display: block;
+}
+
+#wpgmza_map {
+	display: none !important;
+}
+}
+
+.mobile-gmap {
+	display: none;
 }
 
 /*----------IPHONE 6-----------*/
@@ -414,7 +559,7 @@ display: none !important;
     line-height: 1;
     float: right;
     width: 100%;
-    margin-top: -15em;
+    margin-top: 0em;
     margin-right: -10em;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -422,6 +567,7 @@ display: none !important;
     color: #999;
     background-color: transparent;
 }
+
 
 .top-bar-right {
     width: 100%;
@@ -471,9 +617,7 @@ display: none !important;
     background: none;
 }
 
-/*-.above-post-hero {
-    margin-bottom: -4.7em;
-}-*/
+
 
 .heading-top {
     width: 100%;
@@ -486,6 +630,35 @@ display: none !important;
     border-top: 2px #005486 solid;
 }
 
+.vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item {
+    padding: .5em 1em;
+}
+
+.vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item {
+    padding: .5em 1em;
+}
+
+#mc_embed_signup .button {
+    padding: 20px 66px !important;
+}
+
+.above-post-hero {
+    margin-top: 1em;
+}
+
+.top-bar-left .simple-social-icons ul li a, .simple-social-icons ul li a:hover {
+    background-color: #916928 !important;
+    border-radius: 40px;
+    color: #ffffff !important;
+    border: 1px #916928 solid !important;
+    font-size: 15px !important;
+    padding: 6px !important;
+}
+
+.top-bar .simple-social-icons {
+    margin-bottom: -10px;
+    margin-left: 0em!important;
+}
 }
 
 /*----------IPHONE 6 PLUS-------*/
@@ -496,7 +669,7 @@ display: none !important;
     line-height: 1;
     float: right;
     width: 100%;
-    margin-top: -15em;
+    margin-top: 0em;
     margin-right: -10em;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -559,6 +732,10 @@ display: none !important;
     border-top: 2px #005486 solid;
 }
 
+#mc_embed_signup .button {
+    padding: 20px 83px !important;
+}
+
 
 /*---HIDE TESTIMONIAL SLIDERS ON IPHONE-----*/
 div.hide-slide {
@@ -571,6 +748,31 @@ display: none !important;
     border-top: 2px #005486 solid;
 }
 
+.vp-style-doc-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item {
+    padding: .5em 1em;
+}
+
+.vp-style-staff-portfolio.viba-portfolio-wrapper .viba-portfolio.vp-margins .viba-portfolio-item {
+    padding: .5em 1em;
+}
+
+.above-post-hero {
+    margin-top: 1em;
+}
+
+.top-bar-left .simple-social-icons ul li a, .simple-social-icons ul li a:hover {
+    background-color: #916928 !important;
+    border-radius: 40px;
+    color: #ffffff !important;
+    border: 1px #916928 solid !important;
+    font-size: 15px !important;
+    padding: 6px !important;
+}
+
+.top-bar .simple-social-icons {
+    margin-bottom: -10px;
+    margin-left: 1.6em !important;
+}
 }
 
 /*--IPAD---*/
@@ -732,9 +934,31 @@ display: none !important;
     padding-right: .2em;
     padding-left: 1.3em;
     text-transform: uppercase;
+    color: #222 !important;
 }
 
 .homepage-inner {
   padding-top: 12px; 
 }
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 103% !important;
+    padding: 8px 0;
+    text-indent: 2%;
+}
+
+#mc_embed_signup .button {
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 3em 15.56em !important;
+}
+
+.top-bar-left {
+    display: block;
+    margin: 24px auto 0 -6em!important;
+    float: left;
+}
+
 }

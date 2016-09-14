@@ -17,12 +17,12 @@ nav {
 /* Navigation toggles
 --------------------------------------------- */
 
-@media only screen and (min-width: 769px) {
+/*--@media only screen and (min-width: 769px) {
 
 	nav {
-		display: block !important;
+		    display: block;
 	}
-}
+}--*/
 
 /* Navigation toggles - Mobile
 --------------------------------------------- */
@@ -269,8 +269,30 @@ nav {
     padding-right: .2em;
     padding-left: 1.3em;
     text-transform: uppercase;
+    color: #222;
+}
 }
 
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.genesis-nav-menu>.menu-item>a {
+    padding-right: .2em;
+    padding-left: 1.3em;
+    text-transform: uppercase;
+    color: #222 !important;
+
+}
+.genesis-nav-menu {
+font-family: 'Open Sans', serif;
+font-weight: 400;
+line-height: 1.5;
+clear: both;
+width: 100%;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #222 !important;
+}
 }
 
 /*----------IPHONE 6 PLUS-------*/
@@ -408,6 +430,7 @@ nav {
     padding-right: .2em;
     padding-left: 1.3em;
     text-transform: uppercase;
+    color: #555 !important;
 }
 }
 
@@ -544,6 +567,7 @@ nav {
     padding-right: .2em;
     padding-left: 1.3em;
     text-transform: uppercase;
+    color: #555 !important;
 }
 }
 
@@ -681,5 +705,6 @@ nav {
     padding-right: .2em;
     padding-left: 1.3em;
     text-transform: uppercase;
+    color: #555 !important;
 }
 }	

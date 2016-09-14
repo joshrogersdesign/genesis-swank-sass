@@ -256,7 +256,7 @@ function bw_hero_image() {
         <?php echo ".$featured_class "; ?> {background-image:url(<?php echo $bgtablet;?>);height:316px;}
 		}
 		@media only screen and (min-width : 992px) {       
-        <?php echo ".$featured_class "; ?> {background-image:url(<?php echo $bgdesktop;?>);height:550px;}
+        <?php echo ".$featured_class "; ?> {background-image:url(<?php echo $bgdesktop;?>);height:475px;}
 		}
 </style>
 <?php
